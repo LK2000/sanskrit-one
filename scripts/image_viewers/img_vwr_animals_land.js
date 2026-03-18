@@ -360,9 +360,5 @@ document.addEventListener("DOMContentLoaded", () => {
   loadImage(0); // Load the first image from the shuffled array
 });
 
-/*
- kitchen: pressure cooker, randradarvi, samadarvi, 254, 257, 258
- full kitchen utensil glossary
- nature: waterfall
- measuring tape
- */
+/* prevent users from copying text and images */
+document.addEventListener("contextmenu", (event) => event.preventDefault());

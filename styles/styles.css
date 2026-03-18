@@ -67,7 +67,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Ensure the body takes at least the full viewport height */
-  /* user-select: none; /* disable text selection copy-paste */
+  user-select: none; /* disable text selection copy-paste */
   font-size: 18px;
 }
 
