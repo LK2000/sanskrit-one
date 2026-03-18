@@ -1,0 +1,18 @@
+.audio-button {
+    background-color: #007bff; /* Green background */
+    border: none; /* Remove the border */
+    border-radius: 50%; /* Make it circular */
+    padding: 8px; /* Adjust the size of the button */
+    color: white; /* Icon color */
+    font-size: 24px; /* Icon size */
+    cursor: pointer; /* Show a pointer when hovering */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.audio-button:hover {
+    background-color: #0056b3;
+}
+
+.audio-button:focus {
+    outline: none; /* Remove the default focus outline */
+}

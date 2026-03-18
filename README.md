@@ -1,2 +1,1 @@
-# sanskrit-one
-THE place to learn Sanskrit
+This is the repo for learning Samskrutam

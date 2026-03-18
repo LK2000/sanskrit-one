@@ -1,0 +1,763 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/fonts/roboto-slab-v35-latin-300.woff2') format('woff2');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/fonts/roboto-slab-v35-latin-400.woff2') format('woff2');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* martel-300 - devanagari */
+@font-face {
+  font-display: swap;
+  font-family: 'Martel';
+  font-style: normal;
+  font-weight: 300;
+  src: local('☺'), url('/fonts/martel-v11-devanagari-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* martel 400 - devanagari */
+@font-face {
+  font-display: swap;
+  font-family: 'Martel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('☺'), url('/fonts/martel-v11-devanagari-400.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* noto-serif-devanagari-300 - devanagari */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Noto Serif Devanagari';
+  font-style: normal;
+  font-weight: 300;
+  /* src: url('/fonts/noto-serif-devanagari-v33-devanagari-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: local('☺'), url('/fonts/noto-serif-devanagari-v33-devanagari-300.woff2') format('woff2');
+}
+
+/* noto-serif-devanagari-regular - devanagari */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Noto Serif Devanagari';
+  font-style: normal;
+  font-weight: 400;
+  /* src: url('/fonts/noto-serif-devanagari-v33-devanagari-400.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: local('☺'), url('/fonts/noto-serif-devanagari-v33-devanagari-400.woff2') format('woff2');
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #666666;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+  /* user-select: none; /* disable text selection copy-paste */
+  font-size: 18px;
+}
+
+/*
+ * for changing font size
+ */
+.font-controls {
+  display: flex;
+  align-items: flex-end; /* align items at the bottom */
+
+  gap: 10px;             /* Optional: spacing between buttons */
+}
+
+.font-controls a {
+  margin-right: 1em;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  line-height: 0;
+  display: inline-block;
+
+  line-height: 1;
+}
+
+.font-controls a.active {
+  font-weight: bold;
+  color: #f4a261;
+}
+
+.left-group {
+  display: flex;
+  align-items: center;
+  /*gap: 10px;*/
+}
+
+/* logo size (desktop/tablet) */
+.left-group img {
+  height: 50px;
+  width: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #698FB0;
+  padding: 20px 20px 10px 10px; /* 20px 20px 10px 10px; */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 60px;
+  margin-top: auto; /* Push the navbar to the bottom */
+  font-weight: 300;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-links li a:hover {
+  color: #f4a261;
+}
+
+.nav-links li a.active {
+  color: #f4a261;
+}
+
+/* vertical menu */
+#sk-vert-menu {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  /*height: calc(100vh - 60px);*/
+  height: calc(80vh - 60px);
+  width: 250px; /*100%;*/
+  background-color: white;
+  transform: translateX(-100%); /* start hidden off screen */
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;             /* allow scrolling if too long */
+
+    /* border & shadow */
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* when menu is open */
+#sk-vert-menu.open {
+  transform: translateX(0);
+}
+
+.link-container {
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Arrange the children (links) vertically */
+  width: 200px; /* Set the width of the container */
+  margin: 0 auto; /* Center the container */
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.link-container hr {
+  width: calc(100% - 20px);
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  transform: scaleY(0.5);
+  transform-origin: top;
+}
+
+/* Style for each link */
+.link-container a {
+  display: block; /* Make the link a block-level element */
+  /* margin-bottom: 10px; Add space between links */
+  padding: 10px;
+  /*background-color: #4CAF50;*/
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  width: 100%; /* Ensure the link fills the container width */
+}
+
+a.sk-vert-menu-item {
+  color: #f4a261;
+}
+
+/* Hover effect for the links
+.link-container a:hover {
+  background-color: #45a049;
+}
+*/
+
+.sk-vert-menu.active {
+  display: flex;
+}
+
+/*
+#sk-vert-menu {
+  display: none;
+}
+*/
+
+/*** end vert menu ***/
+
+/* Extra Compact Hamburger Button */
+.hamburger-btn {
+  display: none;
+  width: 20px;
+  height: 14px;
+  position: relative;
+  border: none;
+  background: none;
+  cursor: pointer;
+  float: right;
+  z-index: 2;
+  margin: 10px;
+}
+
+.hamburger-btn .bar {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.hamburger-btn .bar:nth-child(1) {
+  top: 0;
+}
+
+.hamburger-btn .bar:nth-child(2) {
+  top: 6px;
+}
+
+.hamburger-btn .bar:nth-child(3) {
+  top: 12px;
+}
+
+/* X Transformation (centered and neat) */
+.hamburger-btn.open .bar:nth-child(1) {
+  transform: rotate(45deg);
+  top: 6px;
+}
+
+.hamburger-btn.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-btn.open .bar:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 6px;
+}
+/** end new hamburger */
+
+/* Main content */
+main {
+  padding: 10px;
+  text-align: left;
+  flex-grow: 1; /* Ensure the main content fills the remaining space */
+  /* color: #4B2E2A; Dark Brown for readable text */
+  /*background-color: #f3f3f6;*/
+}
+
+/* Footer */
+footer {
+  background-color: #698FB0;
+  color: white;
+  text-align: center;
+  padding: 8px 0px 0px 0px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.copyright {
+  font-size: 18px;
+  padding: 0px 0px 5px 0px;
+  /* opacity: 0.7; */
+}
+
+.colored-heading {
+  color: #3498DB;
+}
+
+h3 {
+  color: #666666; /*#434343;*/
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px 20px 10px 10px; /* 10px 20px 10px 10px; */
+    height: 60px;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #4c9ed9;
+    flex-direction: column;
+    padding: 15px;
+    width: 200px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+  }
+
+  .nav-links.active {
+    max-height: 500px;
+    opacity: 1;
+  }
+
+  .hamburger-btn {
+    display: block;
+  }
+
+  /* smaller logo on small screens */
+  .left-group img {
+    height: 40px; /* was 30px */
+  }
+
+  /*
+  .sk-vert-menu {
+    display: none;
+  }
+  */
+}
+
+.my-ul, .my-ol {
+  padding-left: 40px;
+  margin-bottom: 1em; /* optional: gives space after the list */
+}
+
+/* text stretched in one line and centered */
+.stretched_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.url-no-underline {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Inherits the text color from the parent */
+}
+
+.url-no-underline:hover {
+  color: #ff7e5f;
+}
+
+/* for numbered list items, e.g used in vocabulary */
+.num-list {
+  line-height: 2.5;
+}
+
+/* for a used in numbered lists, e.g used in vocabulary */
+.a-no-deco {
+  text-decoration: none;
+  color: inherit;
+}
+
+.a-no-deco:hover {
+  color: #ff7e5f; /* Custom hover color */
+}
+
+.sanskrit {
+  /*font-family: 'Martel';*/
+  font-family: 'sans-serif';
+  font-weight: 300;
+  line-height: 1.8;
+  color: black; /*#717171;*/
+}
+
+.tooltip-container {
+  cursor: pointer;
+}
+
+.tooltip {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: black;
+      color: white;
+      padding: 12px 16px;
+      border-radius: 6px;
+      max-width: 90vw;
+      width: auto;
+      white-space: normal;
+      word-break: break-word;
+      overflow-wrap: break-word;
+      text-align: left;
+      line-height: 1.5;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+      z-index: 1000;
+}
+
+.tooltip.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*
+.hover-text {
+  position: relative;
+  transition: color 0.3s ease;
+}
+*/
+
+/* Change text color when hovering */
+.hover-text:hover {
+  color: red; /* Change text color to red when hovered */
+}
+
+/* used in Gita pages */
+.gita-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 8px; /* Spacing between columns */
+}
+
+.gita-grid-item {
+  background-color: #eff2f2;
+  /*color: #34495e;*/
+  color: black;
+  padding: 8px;
+  text-align: left;
+  border-radius: 8px;
+}
+
+.gita-grid-item-rhs {
+  background-color: #e6f2ff; /* #f8f9f9 */
+  color: #34495e;
+  padding: 8px;
+  text-align: left;
+  border-radius: 8px;
+}
+
+.line_spacing_1p5 {
+  line-height: 1.5;
+}
+/* Responsive: Stack columns when the screen width is less than 768px */
+@media (max-width: 768px) {
+  .gita-grid-container {
+      grid-template-columns: 1fr; /* Single column layout */
+  }
+}
+
+/*
+ * for a floating window; I use this to show
+ * chandamama disclaimer among other things
+ */
+.hover-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-trigger {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.floating-window {
+  display: none;
+  position: absolute;
+  top: 2.5em;
+  left: 0;
+  width: 400px;
+  background-color: #f9f9f9;
+  border: 1px solid #aaa;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  z-index: 1000;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.floating-window-centered {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  background-color: #f9f9f9;
+  border: 1px solid #aaa;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  z-index: 1001;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.floating-window-centered.visible {
+  display: block;
+}
+
+.hover-container:hover .floating-window {
+  display: block;
+}
+
+/*
+ * for breadcrumbs
+ */
+.breadcrumb {
+  font-size: 15px;
+  margin: 10px 0px 0px 0px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.breadcrumb ol {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 0px 0px 0px 10px;
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb li + li::before {
+  content: ">"; /* or "/" */
+  /*margin: 0 0.5em;*/
+  padding: 0px 5px 0px 0px;
+  color: #999;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.tiny-font {
+  font-size: 12px;
+}
+
+/*
+ * for gear icon settings
+ */
+.font-controls a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  line-height: 1.0;
+}
+
+.float-image {
+  float: left; /* or right */
+  margin: 0px 10px 0px 0px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.table-audio-quiz {
+  padding: 5px 20px 0px 0px;
+  color: #3498DB;
+}
+
+/* for showing tooltip */
+.ss-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.ss-tooltip .ss-tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 125%; /* Show above the image */
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  transition: opacity 0.1s;
+  z-index: 10;
+}
+
+.ss-tooltip:hover .ss-tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.title-bar {
+  display: flex;
+  align-items: center;       /* Align items vertically */
+  justify-content: space-between;  /* Or use 'flex-start' if you want them close */
+  gap: 20px;                 /* Optional spacing between elements */
+  margin-bottom: 15px;       /* Optional spacing below the bar */
+}
+
+.title-bar h3 {
+  margin: 0;                 /* Remove default margin if needed */
+}
+
+/*
+ * For displaying modal dialog and question boxes
+ */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.modal-content button {
+  padding: 8px 20px;
+  margin: 10px 0px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #888;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.modal-content button:hover {
+  background-color: #e0e0e0;
+}
+
+.close-btn {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dialog-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.quote {
+  color: #800080;
+}
+
+#resolution-warning {
+  position: fixed;
+  top: 60px;              /* below your logo */
+  left: 0;
+  width: 100%;
+  background: #e8e8e8;
+  color: #000;
+  padding: 10px 40px 10px 10px;
+  text-align: left;
+  z-index: 2000;
+  border: 1px solid gray;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+
+  /* animation prep */
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+#resolution-warning.show {
+  max-height: 300px;  /* large enough for content */
+  opacity: 1;
+}
+
+#resolution-warning button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.simple-audio-player {
+  display: flex;
+  justify-content: space-between; /* sentence left, button right */
+  align-items: center;            /* vertical alignment */
+  /*margin-bottom: 12px;            /* spacing between rows */
+}
+
+.sentence {
+  flex: 1;                        /* take up remaining space */
+  margin-right: 10px;             /* gap between sentence and button */
+}
+
+/* button for simple audio player */
+.simple-play-btn {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
