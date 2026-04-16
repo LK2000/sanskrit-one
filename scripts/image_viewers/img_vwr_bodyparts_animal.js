@@ -17,12 +17,12 @@ let images = [
   },
   {
     src: "../images/vocab/body_animal/comb.jpeg",
-    caption: "चूडा ● स्त्रीलिङ्गम्",
+    caption: "comb ● शिरोवल्लिः ● स्त्रीलिङ्गम्",
     audio: "/audio/pic_dict/body_animal/comb.m4a",
   },
   {
     src: "../images/vocab/body_animal/crest.jpeg",
-    caption: "चूडा ● स्त्रीलिङ्गम्",
+    caption: "crest ● चूडा ● स्त्रीलिङ्गम्",
     audio: "/audio/pic_dict/body_animal/crest.m4a",
   },
   {
@@ -42,12 +42,12 @@ let images = [
   },
   {
     src: "../images/vocab/body_animal/fur.jpeg",
-    caption: "पशुलोमम् ● नपुंसकलिङ्गम्",
+    caption: "fur ● पशुलोमम् ● नपुंसकलिङ्गम्",
     audio: "/audio/pic_dict/body_animal/fur.m4a",
   },
   {
     src: "../images/vocab/body_animal/gill.jpeg",
-    caption: "मत्स्यश्वासेन्द्रियम् ● नपुंसकलिङ्गम्",
+    caption: "मत्स्य-श्वासेन्द्रियम् ● नपुंसकलिङ्गम्",
     audio: "/audio/pic_dict/body_animal/gill.m4a",
   },
   {
@@ -72,7 +72,7 @@ let images = [
   },
   {
     src: "../images/vocab/body_animal/muzzle.jpeg",
-    caption: "मुखबन्धनम् ● नपुंसकलिङ्गम्",
+    caption: "मुखाग्रं ● नपुंसकलिङ्गम्",
     audio: "/audio/pic_dict/body_animal/muzzle.m4a",
   },
   {
@@ -82,7 +82,7 @@ let images = [
   },
   {
     src: "../images/vocab/body_animal/scale.jpeg",
-    caption: "शकलम् ● नपुंसकलिङ्गम्",
+    caption: "scale ● शल्कः ● नपुंसकलिङ्गम्",
     audio: "/audio/pic_dict/body_animal/scale.m4a",
   },
   {

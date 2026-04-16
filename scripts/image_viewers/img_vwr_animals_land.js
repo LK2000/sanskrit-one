@@ -22,22 +22,22 @@ let images = [
   },
   {
     src: "../images/vocab/animals_land/beetle.jpeg",
-    caption: "भृङ्गः ● पुल्लिङ्गम्",
+    caption: "beetle ● भृङ्गः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_land/beetle.m4a",
   },
   {
     src: "../images/vocab/animals_land/bison.jpeg",
-    caption: "गवलः ● पुल्लिङ्गम्",
+    caption: "bison ● गवलः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_land/bison.m4a",
   },
   {
     src: "../images/vocab/animals_land/buffalo.jpeg",
-    caption: "महिषः ● पुल्लिङ्गम्",
+    caption: "buffalo ● महिषः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_land/buffalo.m4a",
   },
   {
     src: "../images/vocab/animals_land/bull.jpeg",
-    caption: "वृषभः ● पुल्लिङ्गम्",
+    caption: "bull ● वृषभः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_land/bull.m4a",
   },
   {
@@ -52,17 +52,17 @@ let images = [
   },
   {
     src: "../images/vocab/animals_land/caterpillar.jpeg",
-    caption: "शूककीटः ● पुल्लिङ्गम्",
+    caption: "caterpillar ● शूककीटः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_land/caterpillar.m4a",
   },
   {
     src: "../images/vocab/animals_land/cattle.jpeg",
-    caption: "गावः ● पुल्लिङ्गम्",
+    caption: "cattle ● गावः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_land/cattle.m4a",
   },
   {
     src: "../images/vocab/animals_land/centipede.jpeg",
-    caption: "शतपादः ● पुल्लिङ्गम्",
+    caption: "centipede ● शतपादः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_land/centipede.m4a",
   },
   {
@@ -92,7 +92,7 @@ let images = [
   },
   {
     src: "../images/vocab/animals_land/cow.jpeg",
-    caption: "धेनु ● स्त्रीलिङ्गम्",
+    caption: "धेनुः ● स्त्रीलिङ्गम्",
     audio: "/audio/pic_dict/animals_land/cow.m4a",
   },
   {
@@ -141,11 +141,6 @@ let images = [
     audio: "/audio/pic_dict/animals_land/gorilla.m4a",
   },
   {
-    src: "../images/vocab/animals_land/hare.jpeg",
-    caption: "शशकः ● पुल्लिङ्गम्",
-    audio: "/audio/pic_dict/animals_land/hare.m4a",
-  },
-  {
     src: "../images/vocab/animals_land/hippopotamus.jpeg",
     caption: "जलहस्ती ● स्त्रीलिङ्गम्",
     audio: "/audio/pic_dict/animals_land/hippopotamus.m4a",
@@ -157,7 +152,7 @@ let images = [
   },
   {
     src: "../images/vocab/animals_land/insect.jpeg",
-    caption: "कीटः ● पुल्लिङ्गम्",
+    caption: "insect ● कीटः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_land/insect.m4a",
   },
   {
@@ -181,13 +176,8 @@ let images = [
     audio: "/audio/pic_dict/animals_land/lizard.m4a",
   },
   {
-    src: "../images/vocab/animals_land/mole.jpeg",
-    caption: "गन्धमूषिकः ● पुल्लिङ्गम्",
-    audio: "/audio/pic_dict/animals_land/mole.m4a",
-  },
-  {
     src: "../images/vocab/animals_land/mongoose.jpeg",
-    caption: "नकुलः ● पुल्लिङ्गम्",
+    caption: "mongoose ● नकुलः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_land/mongoose.m4a",
   },
   {
@@ -222,12 +212,12 @@ let images = [
   },
   {
     src: "../images/vocab/animals_land/python.jpeg",
-    caption: "अजगरः ● पुल्लिङ्गम्",
+    caption: "python ● अजगरः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_land/python.m4a",
   },
   {
     src: "../images/vocab/animals_land/rabbit.jpeg",
-    caption: "शशः ● पुल्लिङ्गम्",
+    caption: "शशकः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_land/rabbit.m4a",
   },
   {
@@ -247,7 +237,7 @@ let images = [
   },
   {
     src: "../images/vocab/animals_land/scorpion.jpeg",
-    caption: "वृश्चिक ● स्त्रीलिङ्गम्",
+    caption: "वृश्चिकः ● स्त्रीलिङ्गम्",
     audio: "/audio/pic_dict/animals_land/scorpion.m4a",
   },
   {
@@ -257,7 +247,7 @@ let images = [
   },
   {
     src: "../images/vocab/animals_land/silkworm.jpeg",
-    caption: "कोशकारः ● पुल्लिङ्गम्",
+    caption: "silkworm ● कोशकारः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_land/silkworm.m4a",
   },
   {
@@ -287,12 +277,12 @@ let images = [
   },
   {
     src: "../images/vocab/animals_land/worm.jpeg",
-    caption: "कृमिः ● पुल्लिङ्गम्",
+    caption: "worm ● कृमिः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_land/worm.m4a",
   },
   {
     src: "../images/vocab/animals_land/zebra.jpeg",
-    caption: "चित्ररासभ ● पुल्लिङ्गम्",
+    caption: "चित्ररासभः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_land/zebra.m4a",
   }
 ];

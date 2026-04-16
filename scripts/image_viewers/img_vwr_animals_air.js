@@ -7,17 +7,17 @@ let images = [
   },
   {
     src: "../images/vocab/animals_air/bee.jpeg",
-    caption: "मधुमक्षिका ● स्त्रीलिङ्गम्",
+    caption: "bee ● मधुमक्षिका ● स्त्रीलिङ्गम्",
     audio: "/audio/pic_dict/animals_air/bee.m4a",
   },
   {
     src: "../images/vocab/animals_air/bird.jpeg",
-    caption: "पक्षी ● पुल्लिङ्गम्",
+    caption: "bird ● पक्षी ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_air/bird.m4a",
   },
   {
     src: "../images/vocab/animals_air/bumblebee.jpeg",
-    caption: "भ्रमरः ● पुल्लिङ्गम्",
+    caption: "bumblebee ● भ्रमरः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_air/bumblebee.m4a",
   },
   {
@@ -32,7 +32,7 @@ let images = [
   },
   {
     src: "../images/vocab/animals_air/cricket.jpeg",
-    caption: "झिल्लीकः ● पुल्लिङ्गम्",
+    caption: "cricket ● झिल्लीकः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_air/cricket.m4a",
   },
   {
@@ -42,7 +42,7 @@ let images = [
   },
   {
     src: "../images/vocab/animals_air/dove.jpeg",
-    caption: "कपोतः ● पुल्लिङ्गम्",
+    caption: "dove ● कपोतः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_air/dove.m4a",
   },
   {
@@ -57,7 +57,7 @@ let images = [
   },
   {
     src: "../images/vocab/animals_air/firefly.jpeg",
-    caption: "प्रभाकीटः ● पुल्लिङ्गम्",
+    caption: "firefly ● प्रभाकीटः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_air/firefly.m4a",
   },
   {
@@ -67,7 +67,7 @@ let images = [
   },
   {
     src: "../images/vocab/animals_air/fly.jpeg",
-    caption: "मक्षिका ● स्त्रीलिङ्गम्",
+    caption: "fly ● मक्षिका ● स्त्रीलिङ्गम्",
     audio: "/audio/pic_dict/animals_air/fly.m4a",
   },
   {
@@ -77,12 +77,12 @@ let images = [
   },
   {
     src: "../images/vocab/animals_air/mosquito.jpeg",
-    caption: "मशकः ● पुल्लिङ्गम्",
+    caption: "mosquito ● मशकः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_air/mosquito.m4a",
   },
   {
     src: "../images/vocab/animals_air/nightingale.jpeg",
-    caption: "प्रियगीतः ● पुल्लिङ्गम्",
+    caption: "nightingale ● प्रियगीतः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_air/nightingale.m4a",
   },
   {
@@ -97,22 +97,22 @@ let images = [
   },
   {
     src: "../images/vocab/animals_air/pelican.jpeg",
-    caption: "प्लवः ● पुल्लिङ्गम्",
+    caption: "pelican ● प्लवः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_air/pelican.m4a",
   },
   {
     src: "../images/vocab/animals_air/pigeon.jpeg",
-    caption: "कपोतः ● पुल्लिङ्गम्",
+    caption: "pigeon ● कपोतः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_air/pigeon.m4a",
   },
   {
     src: "../images/vocab/animals_air/sparrow.jpeg",
-    caption: "चटकः ● पुल्लिङ्गम्",
+    caption: "sparrow ● चटकः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_air/sparrow.m4a",
   },
   {
     src: "../images/vocab/animals_air/stork.jpeg",
-    caption: "सारसः ● पुल्लिङ्गम्",
+    caption: "stork ● सारसः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_air/stork.m4a",
   },
   {
@@ -122,17 +122,17 @@ let images = [
   },
   {
     src: "../images/vocab/animals_air/vulture.jpeg",
-    caption: "गृध्रः ● पुल्लिङ्गम्",
+    caption: "vulture ● गृध्रः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_air/vulture.m4a",
   },
   {
     src: "../images/vocab/animals_air/wasp.jpeg",
-    caption: "वरटः ● पुल्लिङ्गम्",
+    caption: "wasp ● वरटः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_air/wasp.m4a",
   },
   {
     src: "../images/vocab/animals_air/woodpecker.jpeg",
-    caption: "दारुआघाटः ● पुल्लिङ्गम्",
+    caption: "woodpecker ● दारुआघाटः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_air/woodpecker.m4a",
   }
 ];

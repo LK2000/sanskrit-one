@@ -2,7 +2,7 @@
 let images = [
   {
     src: "../images/vocab/body_human/abdomen.jpeg",
-    caption: "वक्षणा ● स्त्रीलिङ्गम्",
+    caption: "abdomen ● वक्षणा ● स्त्रीलिङ्गम्",
     audio: "/audio/pic_dict/body_human/abdomen.m4a",
   },
   {
@@ -32,17 +32,17 @@ let images = [
   },
   {
     src: "../images/vocab/body_human/bald.jpeg",
-    caption: "खल्वाटः ● पुल्लिङ्गम्",
+    caption: "bald ● खल्वाटः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/body_human/bald.m4a",
   },
   {
     src: "../images/vocab/body_human/beard.jpeg",
-    caption: "श्मश्रु ● नपुंसकलिङ्गम्",
+    caption: "केशवल्कः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/body_human/beard.m4a",
   },
   {
     src: "../images/vocab/body_human/bladder.jpeg",
-    caption: "मूत्राशयः ● पुल्लिङ्गम्",
+    caption: "bladder ● मूत्राशयः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/body_human/bladder.m4a",
   },
   {
@@ -52,12 +52,12 @@ let images = [
   },
   {
     src: "../images/vocab/body_human/body.jpeg",
-    caption: "शरीरम् ● नपुंसकलिङ्गम्",
+    caption: "body ● शरीरम् ● नपुंसकलिङ्गम्",
     audio: "/audio/pic_dict/body_human/body.m4a",
   },
   {
     src: "../images/vocab/body_human/bone_marrow.jpeg",
-    caption: "अस्थि मज्जा ● स्त्रीलिङ्गम्",
+    caption: "bone marrow ● अस्थि-मज्जा ● स्त्रीलिङ्गम्",
     audio: "/audio/pic_dict/body_human/bone_marrow.m4a",
   },
   {
@@ -127,7 +127,7 @@ let images = [
   },
   {
     src: "../images/vocab/body_human/eyeball.jpeg",
-    caption: "कनीनिका ● स्त्रीलिङ्गम्",
+    caption: "eyeball ● कनीनिका ● स्त्रीलिङ्गम्",
     audio: "/audio/pic_dict/body_human/eyeball.m4a",
   },
   {
@@ -137,12 +137,12 @@ let images = [
   },
   {
     src: "../images/vocab/body_human/eyelash.jpeg",
-    caption: "पक्ष्मम् ● नपुंसकलिङ्गम्",
+    caption: "पक्ष्म ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/body_human/eyelash.m4a",
   },
   {
     src: "../images/vocab/body_human/eyelid.jpeg",
-    caption: "नेत्रपक्ष्मः ● पुल्लिङ्गम्",
+    caption: "पलिका ● स्त्रीलिङ्गम्",
     audio: "/audio/pic_dict/body_human/eyelid.m4a",
   },
   {
@@ -202,7 +202,7 @@ let images = [
   },
   {
     src: "../images/vocab/body_human/hips.jpeg",
-    caption: "नितम्बः ● पुल्लिङ्गम्",
+    caption: "hips ● श्रोणिः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/body_human/hips.m4a",
   },
   {
@@ -317,7 +317,7 @@ let images = [
   },
   {
     src: "../images/vocab/body_human/pelvis.jpeg",
-    caption: "वस्तिदेशः ● पुल्लिङ्गम्",
+    caption: "pelvis ● वस्तिदेशः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/body_human/pelvis.m4a",
   },
   {
@@ -347,7 +347,7 @@ let images = [
   },
   {
     src: "../images/vocab/body_human/scrotum.jpeg",
-    caption: "मूत्रकोशः ● पुल्लिङ्गम्",
+    caption: "scrotum ● वृषणकोशः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/body_human/scrotum.m4a",
   },
   {
@@ -362,7 +362,7 @@ let images = [
   },
   {
     src: "../images/vocab/body_human/skin.jpeg",
-    caption: "चर्मम् ● नपुंसकलिङ्गम्",
+    caption: "skin ● चर्मम् ● नपुंसकलिङ्गम्",
     audio: "/audio/pic_dict/body_human/skin.m4a",
   },
   {
@@ -382,7 +382,7 @@ let images = [
   },
   {
     src: "../images/vocab/body_human/stomach.jpeg",
-    caption: "उदरम् ● नपुंसकलिङ्गम्",
+    caption: "stomach ● उदरम् ● नपुंसकलिङ्गम्",
     audio: "/audio/pic_dict/body_human/stomach.m4a",
   },
   {
@@ -442,7 +442,7 @@ let images = [
   },
   {
     src: "../images/vocab/body_human/waist.jpeg",
-    caption: "कटी ● स्त्रीलिङ्गम्",
+    caption: "waist ● कटी ● स्त्रीलिङ्गम्",
     audio: "/audio/pic_dict/body_human/waist.m4a",
   },
   {
@@ -452,7 +452,7 @@ let images = [
   },
   {
     src: "../images/vocab/body_human/lips.jpeg",
-    caption: "ओष्ठम् ● नपुंसकलिङ्गम्",
+    caption: "ओष्ठौ ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/body_human/lips.m4a",
   },
   {

@@ -17,7 +17,7 @@ let images = [
   },
   {
     src: "../images/vocab/transport/car.png",
-    caption: "यानम् ● नपुंसकलिङ्गम्",
+    caption: "कारयानम्‌ ● नपुंसकलिङ्गम्",
     audio: "/audio/pic_dict/transport/car.m4a",
   },
   {
@@ -52,7 +52,7 @@ let images = [
   },
   {
     src: "../images/vocab/transport/motorcycle.png",
-    caption: "यन्त्रद्विचक्रिका ● स्त्रीलिङ्गम्",
+    caption: "द्विचक्रयन्त्रयानम् ● नपुंसकलिङ्गम्",
     audio: "/audio/pic_dict/transport/motorcycle.m4a",
   }
 ];

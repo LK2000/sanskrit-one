@@ -2,7 +2,7 @@
 let images = [
   {
     src: "../images/vocab/kitchen/kitchen.png",
-    caption: "पाकशाला ● स्त्रीलिङ्गम्",
+    caption: "kitchen ● पाकशाला ● स्त्रीलिङ्गम्",
     audio: "/audio/pic_dict/kitchen/kitchen.m4a",
   },
   {
@@ -132,7 +132,7 @@ let images = [
   },
   {
     src: "../images/vocab/kitchen/peeler.png",
-    caption: "शाकफलत्वक्छेदकः ● पुल्लिङ्गम्",
+    caption: "त्वक्छेदकः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/kitchen/peeler.m4a",
   },
 ];

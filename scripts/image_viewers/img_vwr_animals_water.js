@@ -2,7 +2,7 @@
 let images = [
   {
     src: "../images/vocab/animals_water/beaver.jpeg",
-    caption: "सेतूद्रः ● पुल्लिङ्गम्",
+    caption: "beaver ● सेतूद्रः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_water/beaver.m4a",
   },
   {
@@ -32,7 +32,7 @@ let images = [
   },
   {
     src: "../images/vocab/animals_water/eel.jpeg",
-    caption: "जलव्यालः ● पुल्लिङ्गम्",
+    caption: "eel ● जलव्यालः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_water/eel.m4a",
   },
   {
@@ -62,7 +62,7 @@ let images = [
   },
   {
     src: "../images/vocab/animals_water/otter.jpeg",
-    caption: "जलनकुलः ● पुल्लिङ्गम्",
+    caption: "otter ● जलनकुलः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_water/otter.m4a",
   },
   {
@@ -72,7 +72,7 @@ let images = [
   },
   {
     src: "../images/vocab/animals_water/shrimp.jpeg",
-    caption: "इञ्चाकः ● पुल्लिङ्गम्",
+    caption: "shrimp ● इञ्चाकः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_water/shrimp.m4a",
   },
   {
@@ -92,7 +92,7 @@ let images = [
   },
   {
     src: "../images/vocab/animals_water/whale.jpeg",
-    caption: "तिमिः ● पुल्लिङ्गम्",
+    caption: "तिमिङ्गिलः ● पुल्लिङ्गम्",
     audio: "/audio/pic_dict/animals_water/whale.m4a",
   }
 ];
