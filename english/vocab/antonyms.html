@@ -13,15 +13,15 @@
     <!-- END Sanskrit One Google tag (gtag.js) -->
 
     <!-- SEO tags -->
-    <title>List of vocabulary categories</title>
-    <meta name="description" content="List of vocabulary categories on this site">
+    <title>Antonyms — Test Your Sanskrit vocabulary</title>
+    <meta name="description" content="Learn Sanskrit antonyms with this interactive vocabulary quiz">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.sanskrit.one/english/vocab.html">
+    <link rel="canonical" href="https://www.sanskrit.one/english/vocab/antonyms.html">
 
     <!-- Open Graph for social sharing -->
-    <meta property="og:title" content="List of vocabulary categories">
-    <meta property="og:description" content="List of vocabulary categories on this site">
+    <meta property="og:title" content="Antonyms — Test Your Sanskrit vocabulary">
+    <meta property="og:description" content="Learn Sanskrit antonyms with this interactive vocabulary quiz">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.sanskrit.one">
     <meta property="og:site_name" content="www.sanskrit.one" />
@@ -31,7 +31,7 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Sanskrit vocabulary. Perfect for beginners and advanced learners">
+    <meta name="twitter:title" content="Learn Sanskrit antonyms with this interactive vocabulary quiz">
     <meta name="twitter:description" content="Stories, vocabulary, quizzes and scriptures to help you master Sanskrit">
     <meta name="twitter:image" content="https://www.sanskrit.one/images/sanskrit_one.png">
 
@@ -65,24 +65,25 @@
     <link rel="preload" href="/fonts/martel-v11-devanagari-400.woff2" as="font" type="font/woff2" crossorigin>
     <!-- end fonts hosted by me -->
 
-    <link rel="stylesheet" href="../styles/styles.css" />
-    <script src="../scripts/script.js"></script>
+    <link rel="stylesheet" href="../../../../styles/styles.css" />
+    <link rel="stylesheet" href="../../../../styles/vocab_quiz.css" />
+    <script src="../../../../scripts/script.js"></script>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar">
       <div class="left-group">
-        <img src="../images/logo.png" alt="Logo" draggable="false" />
+        <img src="../../../../images/logo.png" alt="Logo" draggable="false" />
       </div>
 
       <ul class="nav-links" id="navLinks">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="stories.html">Stories</a></li>
-        <li><a class="active" href="vocab.html">Vocabulary</a></li>
-        <li><a href="grammar.html">Grammar</a></li>
-        <li><a href="scriptures/scriptures.html">Scriptures</a></li>
-        <li><a href="contact_us.html">Contact</a></li>
-        <li><img id="gearTriggerHorizontal" src="../images/settings.png" width="25" height="25" alt="Settings" draggable="false" style="cursor: pointer;" onmouseover="this.style.filter='grayscale(100%)'" onmouseout="this.style.filter='none'"/></li>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../stories.html">Stories</a></li>
+        <li><a class="active" href="../vocab.html">Vocabulary</a></li>
+        <li><a href="../grammar.html">Grammar</a></li>
+        <li><a href="../scriptures/scriptures.html">Scriptures</a></li>
+        <li><a href="../contact_us.html">Contact</a></li>
+        <li><img id="gearTriggerHorizontal" src="../../images/settings.png" width="25" height="25" alt="Settings" draggable="false" style="cursor: pointer;" onmouseover="this.style.filter='grayscale(100%)'" onmouseout="this.style.filter='none'"/></li>
       </ul>
 
       <!-- Hamburger Button -->
@@ -92,11 +93,14 @@
         <span class="bar"></span>
       </button>
     </nav>
+    <!-- end Navbar -->
 
+    <!-- Breadcrumb -->
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <ol>
-        <li><a href="../index.html">Home</a></li>
-        <li aria-current="page">Vocabulary</li>
+        <li><a href="../../../../index.html">Home</a></li>
+        <li><a href="../vocab.html">Vocabulary</a></li>
+        <li aria-current="page">Antonyms</li>
       </ol>
     </nav>
     <!-- end Navbar -->
@@ -129,21 +133,23 @@
     <main>
       <!-- vertical menu -->
       <div class="sk-vert-menu link-container alt-lang" id="sk-vert-menu">
-        <a href="../index.html">Home</a>
+        <a href="../../index.html">Home</a>
         <hr class="link-container" />
-        <a href="stories.html">Stories</a>
+        <a href="../stories.html">Stories</a>
         <hr class="link-container" />
-        <a class="sk-vert-menu-item" href="vocab.html">Vocabulary</a>
+        <a class="sk-vert-menu-item" href="../vocab.html">Vocabulary</a>
         <hr class="link-container" />
-        <a href="grammar.html">Grammar</a>
+        <a href="../grammar.html">Grammar</a>
         <hr class="link-container" />
-        <a href="scriptures/scriptures.html">Scriptures</a>
+        <a href="../scriptures/scriptures.html">Scriptures</a>
         <hr class="link-container" />
-        <a href="contact_us.html">Contact</a>
+        <a href="../contact_us.html">Contact</a>
         <hr class="link-container" />
-        <img id="gearTriggerVertical" style="margin: 9px 0px 9px 15px; cursor: pointer;" src="../images/settings.png" width="25" height="25" alt="Settings" draggable="false" onmouseover="this.style.filter='grayscale(100%)'" onmouseout="this.style.filter='none'"/>
+        <img id="gearTriggerVertical" style="margin: 9px 0px 9px 15px; cursor: pointer;" src="../../images/settings.png" width="25" height="25" alt="Settings" draggable="false" onmouseover="this.style.filter='grayscale(100%)'" onmouseout="this.style.filter='none'"/>
         <hr class="link-container" />
+        <br />
       </div>
+
       <!-- end vertical menu -->
 
       <!-- language links -->
@@ -160,101 +166,73 @@
       -->
       <!-- end language links -->
 
-      <!-- General-purpose modal dialog -->
-      <div id="modal-dialog" class="modal hidden">
-        <div class="modal-content">
-          <span class="close-btn" onclick="closeModal()">&times;</span>
-          <div id="modal-message">This is a modal message</div>
-          <button onclick="closeModal()">OK</button>
-        </div>
-      </div>
+<div class="quiz-container">
+  <div class="title-bar">
+    <h3><span>Antonyms quiz</span> <span id="quiz-title">(0)</span></h3>
+  </div>
 
-      <!-- Yes/No dialog -->
-      <div id="yesno-dialog" class="modal hidden">
-        <div class="modal-content">
-          <div id="yesno-message">Are you sure?</div>
-          <div class="dialog-buttons">
-            <button id="yes-btn">Yes</button>
-            <button id="no-btn">No</button>
-          </div>
-        </div>
-      </div>
+    <!-- to select vocabulary range -->
+    <div class="range-selectors">
+      <span id="span-range-select">
+        <label id="label-range-select">Start:
+          <select id="start-select"></select> <!-- was start-index -->
+        </label>
+      </span>
+      <span id="span-range-select">
+        <label id="label-range-select">End:
+          <select id="end-select"></select> <!-- was end-index -->
+        </label>
+      </span>
+      <select id="mode-select">
+        <option value="en-to-sans">English → Sanskrit</option>
+        <option value="sans-to-en">Sanskrit → English</option>
+      </select>
+    </div>
+    <!-- end to select vocabulary range -->
 
-      <div class="alt-lang">
-        <h3>Select vocabulary <br /></h3>
-        <ol class="my-ol">
-          <li class="num-list">
-            <div style="display: flex; align-items: center;">
-              <a class="a-no-deco" href="#" onclick="handleDifficultWordsClick(event)">
-                My difficult words (<span id="difficult-word-count">0</span>)
-              </a>
-              <img
-                src="../images/icons/delete.png"
-                alt="Delete"
-                title="Clear difficult words"
-                style="cursor: pointer; width: 18px; height: 18px; margin-left: 8px;"
-                onclick="handleDeleteDifficultWords()"
-              />
-            </div>
-          </li>
+  <div class="score-grid">
+    <div class="score-label">Correct</div>
+    <div class="score-label">Question</div>
+    <div class="score-label">Wrong</div>
+    <div class="score-value" id="score-correct">0</div>
+    <div class="score-value" id="progress">0 of 0</div>
+    <div class="score-value" id="score-wrong">0</div>
+  </div>
 
-          <li class="num-list">
-            <a class="a-no-deco" href="vocab/antonyms.html">Antonyms (Opposites)</a>
-          </li>
-          <li class="num-list">
-            <a class="a-no-deco" href="picture_vocab.html">Picture vocabulary</a>
-          </li>
-        </ol>
+  <div id="quiz">
+    <div id="question-block" class="question-block sanskrit">
+      <div id="question-text"></div>
+      <form id="options-form" class="options"></form>
+        <button id="submit-btn" style="margin-right: 10px;">Check Answer</button>
+        <button id="skip-btn">Skip</button>
+    </div>
+    <button id="restart-btn" style="display:none">Restart Quiz</button>
+  </div>
 
-      </div> <!-- <div class="alt-lang"> -->
+  <div id="feedback" class="hidden">
+    <div class="feedback-box">
+      <p id="feedback-message"></p>
+      <button onclick="closeFeedback()">Continue</button>
+    </div>
+  </div>
+</div> <!-- end <div class="quiz-container"> -->
 
-      <!-- <div class="content"> -->
     </main>
     <!-- end Main -->
 
-    <!-- Footer -->
+    <!-- footer -->
     <footer>
       <!--
-    <ul class="footer-links">
+      <ul class="footer-links">
       <li><a href="">Terms</a></li>
-    </ul>
-    -->
+      </ul>
+      -->
       <div class="copyright">सत्यमेव जयते</div>
     </footer>
     <!-- end Footer -->
-    <script src="../scripts/settings.js"></script>
 
-    <script type="module">
-      import { getDifficultWordCount, clearDifficultWords } from '/scripts/difficult_words_db.js';
-      import { showModal, showYesNoDialog } from '/scripts/modal_utils.js';
-
-      async function handleDifficultWordsClick(event) {
-        event.preventDefault();
-        const count = await getDifficultWordCount();
-        if (count >= 10) {
-          window.location.href = "my_difficult_words_quiz.html";
-        } else {
-          showModal("'My difficult words' is empty  or has fewer than 10 words. When you take a quiz and get some answers wrong, those words get added to 'My difficult words'. I need at least 10 words to quiz you");
-        }
-      }
-
-      async function handleDeleteDifficultWords() {
-        showYesNoDialog(
-          "Are you sure you want to delete 'My difficult words'?",
-          async () => {
-            await clearDifficultWords();
-            document.getElementById("difficult-word-count").textContent = "0";
-          }
-        );
-      }
-
-      window.handleDifficultWordsClick = handleDifficultWordsClick;
-      window.handleDeleteDifficultWords = handleDeleteDifficultWords;
-
-      getDifficultWordCount().then((count) => {
-        document.getElementById("difficult-word-count").textContent = count;
-      });
-    </script>
-
+    <script src="../../scripts/settings.js"></script>
+    <script src="quiz_data/antonyms_quiz_data.js"></script>
+    <script type="module" src="../../scripts/vocab_quiz.js"></script>
   </body>
 </html>
