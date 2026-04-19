@@ -767,6 +767,10 @@ h3 {
  */
 .rounded-table {
     width: 100%;
+    max-width: 750px;   /* table starts at 750px */
+    min-width: 300px;   /* optional: prevents collapsing too small */
+    margin: 0 auto;     /* keeps it centered */
+
     border-collapse: separate;
     border-spacing: 0;
     border: 1px solid #ccc;
