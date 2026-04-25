@@ -185,8 +185,8 @@
   gap: 12px; /* Adjust this to set spacing between radio buttons */
 }
 
-#submit-btn, #skip-btn {
-  width: 160px;
+#submit-btn, #skip-btn, #show-btn {
+  /*width: 160px;*/
   height: 40px;
   border-radius: 8px;
   border: 1px solid gray;
