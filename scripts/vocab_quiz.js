@@ -7,6 +7,7 @@ const questionText = document.getElementById("question-text");
 const optionsForm = document.getElementById("options-form");
 const submitBtn = document.getElementById("submit-btn");
 const skipBtn = document.getElementById("skip-btn");
+const showBtn = document.getElementById("show-btn");
 const restartBtn = document.getElementById("restart-btn");
 const feedbackBox = document.getElementById("feedback");
 const feedbackMessage = document.getElementById("feedback-message");
@@ -133,6 +134,23 @@ skipBtn.addEventListener("click", (e) => {
   e.preventDefault();
   correctCount++;
   nextQuestion();
+});
+
+showBtn.addEventListener("click", () => {
+  const entry = shuffledData[currentQuestionIndex];
+  if (!entry) return;
+
+  const correctAnswer = currentMode === "en-to-sans"
+    ? entry.sans
+    : entry.en;
+
+  const options = optionsForm.querySelectorAll('input[name="option"]');
+
+  options.forEach((opt) => {
+    if (opt.value === correctAnswer) {
+      opt.checked = true;
+    }
+  });
 });
 
 restartBtn.addEventListener("click", () => {
