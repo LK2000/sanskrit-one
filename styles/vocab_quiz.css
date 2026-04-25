@@ -192,6 +192,13 @@
   border: 1px solid gray;
 }
 
+#skip-btn, #show-btn {
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
 /*
 .range-selectors * {
   outline: 1px solid red;
