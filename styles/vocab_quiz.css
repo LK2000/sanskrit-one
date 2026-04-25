@@ -186,7 +186,7 @@
 }
 
 #submit-btn, #skip-btn, #show-btn {
-  /*width: 160px;*/
+  width: 140px;
   height: 40px;
   border-radius: 8px;
   border: 1px solid gray;
