@@ -28,7 +28,7 @@ const quizData = [
 { en: "What are these two fruits?", sans: "एते फले के?" },
 { en: "Who is this maidservant?", sans: "एषा सेविका का?" },
 { en: "Who is this friend?", sans: "एतत् मित्रम् किम्?" },
-/* was here */
+/* was here  TODO_ENA
 { en: "Who are these two friends?", sans: "एतौ मित्रे कौ?" },
 { en: "Who are those maidservants?", sans: "ताः सेविकाः काः?" },
 { en: "Which boy writes?", sans: "एषः कः बालकः लिखति?" },
@@ -149,5 +149,6 @@ const quizData = [
 { en: "Which friend runs?", sans: "सः किं मित्रम् धावति?" },
 { en: "What are these books?", sans: "एतानि कानि पुस्तकानि?" },
 { en: "What are those flowers?", sans: "तानि कानि पुष्पाणि?" },
+ */
 ];
 

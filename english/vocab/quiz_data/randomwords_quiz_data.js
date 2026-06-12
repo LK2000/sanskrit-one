@@ -16,7 +16,7 @@ const quizData = [
     { en: "house confinement", sans: "गृहबन्धनम्" },
     { en: "unmarried", sans: "अविवाहित" },
     { en: "buttermilk", sans: "तक्रम्" },
-    /* PRIYA */
+    /* PRIYA
     { en: "prepared, completed, ready", sans: "सिद्धः" },
     { en: "each other, mutually", sans: "परस्परं" },
     { en: "eyesight, vision, attitude", sans: "दृष्टि (F)" },
@@ -71,6 +71,7 @@ const quizData = [
     { en: "some", sans: "केचन" },
     { en: "having entered", sans: "प्रविष्ट" },
     { en: "enters", sans: "प्रविशति" },
+     */
 ];
 
 /*
