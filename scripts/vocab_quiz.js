@@ -107,6 +107,7 @@ function nextQuestion() {
     optionsForm.innerHTML = "";
     submitBtn.style.display = "none";
     skipBtn.style.display = "none";
+    showBtn.style.display = "none";
     restartBtn.style.display = "inline-block";
     updateScore();
   }
@@ -204,6 +205,7 @@ function startQuiz() {
 
   submitBtn.style.display = "inline-block";
   skipBtn.style.display = "inline-block";
+  showBtn.style.display = "inline-block";
   restartBtn.style.display = "none";
 
   loadQuestion();

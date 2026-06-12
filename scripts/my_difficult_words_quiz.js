@@ -4,7 +4,7 @@ import { getAllDifficultWords } from '/scripts/difficult_words_db.js';
 
 let quizData = [];
 
-const modeSelect = document.getElementById("mode-select-mdw");
+const modeSelect = document.getElementById("mode-select");
 const questionText = document.getElementById("question-text");
 const optionsForm = document.getElementById("options-form");
 const submitBtn = document.getElementById("submit-btn");
@@ -17,11 +17,21 @@ const scoreCorrect = document.getElementById("score-correct");
 const scoreWrong = document.getElementById("score-wrong");
 const progress = document.getElementById("progress");
 
+const startSelect = document.getElementById("start-select");
+const endSelect = document.getElementById("end-select");
+
+const quizTitle = document.getElementById("quiz-title");
+
 let currentMode = modeSelect.value;
 let shuffledData = [];
 let currentQuestionIndex = 0;
 let correctCount = 0;
 let wrongCount = 0;
+
+function updateQuizTitle() {
+  const wordCount = quizData.length;
+  quizTitle.textContent = `(${wordCount} words)`;
+}
 
 function shuffleArray(array) {
   const arr = array.slice();
@@ -135,15 +145,69 @@ modeSelect.addEventListener("change", () => {
   startQuiz();
 });
 
+[startSelect, endSelect].forEach((select) => {
+  select.addEventListener("change", startQuiz);
+});
+
+function populateRangeSelectors() {
+  const total = quizData.length;
+  const chunkSize = 10;
+  const startOptions = [];
+  const endOptions = [];
+
+  for (let i = 0; i < total; i += chunkSize) {
+    startOptions.push(`<option value="${i}">${i + 1}</option>`);
+    endOptions.push(`<option value="${i + chunkSize - 1}">${Math.min(i + chunkSize, total)}</option>`);
+  }
+
+  startSelect.innerHTML = startOptions.join("");
+  endSelect.innerHTML = endOptions.join("");
+
+  startSelect.value = "0";
+  endSelect.value = `${Math.min(9, total - 1)}`;
+}
+
+let rangesInitialized = false;
+
 async function startQuiz() {
   quizData = await getAllDifficultWords();
-  shuffledData = shuffleArray(quizData);
+
+  if (quizData.length === 0) {
+    questionText.textContent = "No difficult words found.";
+    optionsForm.innerHTML = "";
+    submitBtn.style.display = "none";
+    skipBtn.style.display = "none";
+    return;
+  }
+
+  if (!rangesInitialized) {
+    populateRangeSelectors();
+    rangesInitialized = true;
+  }
+
+  const startIndex = parseInt(startSelect.value, 10);
+  const endIndex = parseInt(endSelect.value, 10);
+
+  if (isNaN(startIndex) || isNaN(endIndex) || startIndex > endIndex) {
+    questionText.textContent = "Invalid range selected.";
+    optionsForm.innerHTML = "";
+    return;
+  }
+
+  updateQuizTitle();
+
+  const selectedRange = quizData.slice(startIndex, endIndex + 1);
+
+  shuffledData = shuffleArray(selectedRange);
+
   currentQuestionIndex = 0;
   correctCount = 0;
   wrongCount = 0;
+
   submitBtn.style.display = "inline-block";
   skipBtn.style.display = "inline-block";
   restartBtn.style.display = "none";
+
   loadQuestion();
   updateScore();
 }

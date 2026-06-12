@@ -78,8 +78,8 @@
 
       <ul class="nav-links" id="navLinks">
         <li><a href="../index.html">Home</a></li>
-        <li><a class="active" href="stories.html">Stories</a></li>
-        <li><a href="vocab.html">Vocabulary</a></li>
+        <li><a href="stories.html">Stories</a></li>
+        <li><a class="active" href="vocab.html">Vocabulary</a></li>
         <li><a href="grammar.html">Grammar</a></li>
         <li><a href="scriptures/scriptures.html">Scriptures</a></li>
         <li><a href="contact_us.html">Contact</a></li>
@@ -99,7 +99,7 @@
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <ol>
         <li><a href="../index.html">Home</a></li>
-        <li><a href="stories.html">Stories</a></li>
+        <li><a href="vocab.html">Vocabulary</a></li>
         <li aria-current="page">My difficult words quiz</li>
       </ol>
     </nav>
@@ -135,9 +135,9 @@
       <div class="sk-vert-menu link-container alt-lang" id="sk-vert-menu">
         <a href="../index.html">Home</a>
         <hr class="link-container" />
-        <a class="sk-vert-menu-item" href="stories.html">Stories</a>
+        <a  href="stories.html">Stories</a>
         <hr class="link-container" />
-        <a href="vocab.html">Vocabulary</a>
+        <a class="sk-vert-menu-item" href="vocab.html">Vocabulary</a>
         <hr class="link-container" />
         <a href="grammar.html">Grammar</a>
         <hr class="link-container" />
@@ -168,12 +168,27 @@
 
 <div class="quiz-container">
   <div class="title-bar">
-    <h3 id="quiz-title">My difficult words</h3>
-    <select id="mode-select-mdw">
-      <option value="en-to-sans">English → Sanskrit</option>
-      <option value="sans-to-en">Sanskrit → English</option>
-    </select>
+    <h3><span>My difficult words</span> <span id="quiz-title">(0)</span></h3>
   </div>
+
+    <!-- to select vocabulary range -->
+    <div class="range-selectors">
+      <span id="span-range-select">
+        <label id="label-range-select">Start:
+          <select id="start-select"></select> <!-- was start-index -->
+        </label>
+      </span>
+      <span id="span-range-select">
+        <label id="label-range-select">End:
+          <select id="end-select"></select> <!-- was end-index -->
+        </label>
+      </span>
+      <select id="mode-select">
+        <option value="en-to-sans">English → Sanskrit</option>
+        <option value="sans-to-en">Sanskrit → English</option>
+      </select>
+    </div>
+    <!-- end to select vocabulary range -->
 
   <div class="score-grid">
     <div class="score-label">Correct</div>
@@ -190,7 +205,6 @@
       <form id="options-form" class="options"></form>
       <button id="submit-btn" style="margin-right: 10px;">Check Answer</button>
       <button id="skip-btn" style="margin-right: 10px;">Skip</button>
-      <button id="show-btn">Show</button>
     </div>
     <button id="restart-btn" style="display:none">Restart Quiz</button>
   </div>
@@ -217,8 +231,8 @@
     </footer>
     <!-- end Footer -->
 
-    <script src="../scripts/settings.js"></script>
-    <script type="module" src="../scripts/my_difficult_words_quiz.js"></script>
+    <script src="/scripts/settings.js"></script>
+    <script type="module" src="/scripts/my_difficult_words_quiz.js"></script>
 
   </body>
 </html>
