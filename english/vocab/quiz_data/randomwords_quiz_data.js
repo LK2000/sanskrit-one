@@ -71,22 +71,37 @@ const quizData = [
     { en: "some", sans: "केचन" },
     { en: "having entered", sans: "प्रविष्ट" },
     { en: "enters", sans: "प्रविशति" },
+    { en: "weight", sans: "भारः (M)" },
+    { en: "light weighted", sans: "लगुभारः (Adj)" },
+    { en: "gain weight", sans: "TODO" },
+    { en: "loose weight", sans: "TODO" },
+    { en: "informed, pointed out", sans: "सूचित" },
+    { en: "to another (person)", sans: "अन्यस्मै" },
+    { en: "to build", sans: "निर्मा (Verb)" },
+    { en: "building", sans: "निर्माणम् (N) , भवनम् (N)" },
+    { en: "he constructs, he builds", sans: "रचयति" },
+    { en: "by you", sans: "त्वया (Indecl)" },
      */
 ];
 
 /*
 
+    { en: "TODO", sans: "भवता" },
+    { en: "increases, expands, grows", sans: "वर्धयति" },
+    { en: "", sans: "" },
+    { en: "", sans: "" },
+    { en: "", sans: "" },
+    { en: "", sans: "" },
+    { en: "", sans: "" },
+    { en: "", sans: "" },
+    { en: "", sans: "" },
+    { en: "", sans: "" },
 
-    { en: "", sans: "" },
-    { en: "", sans: "" },
-    { en: "", sans: "" },
-    { en: "", sans: "" },
-    { en: "", sans: "" },
-
-    { en: "", sans: "" },
 */
 
 /*
+guilty-innocent
+
 tumun: kartum, khaditum
 tva pratyaya patitva, tyaktva, khaditva
 

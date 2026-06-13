@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- START Sanskrit One Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VQFJHC8SE8"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VQFJHC8SE8');
+    </script>
+    <!-- END Sanskrit One Google tag (gtag.js) -->
+
+    <!-- SEO tags -->
+    <title>The Tortoise and the Hare</title>
+    <meta name="description" content="The Tortoise and the Hare - a short story in Sanskrit">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.sanskrit.one/english/stories/short_stories/tortoise.html">
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="The Tortoise and the Hare">
+    <meta property="og:description" content="The Tortoise and the Hare - a short story in Sanskrit">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.sanskrit.one">
+    <meta property="og:site_name" content="www.sanskrit.one" />
+    <meta property="og:image" content="https://www.sanskrit.one/images/sanskrit_one.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Tortoise and the Hare">
+    <meta name="twitter:description" content="The Tortoise and the Hare - a short story in Sanskrit">
+    <meta name="twitter:image" content="https://www.sanskrit.one/images/sanskrit_one.png">
+
+    <link rel="icon" type="image/png" href="/images/icons/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/touch_icon.png">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOccupationalProgram",
+      "name": "Learn Sanskrit",
+      "description": "Free resources for learning Sanskrit.",
+      "educationalProgramMode": "online",
+      "provider": {
+        "@type": "Organization",
+        "name": "Sanskrit One",
+        "url": "https://www.sanskrit.one"
+      }
+    }
+    </script>
+    <!-- end SEO tags -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts hosted by me -->
+    <link rel="preload" href="/fonts/roboto-slab-v35-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/roboto-slab-v35-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/martel-v11-devanagari-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/martel-v11-devanagari-400.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- end fonts hosted by me -->
+
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="../../../styles/audio_player.css" />
+    <script src="/scripts/script.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="left-group">
+        <img src="/images/logo.png" alt="Logo" draggable="false" />
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/index.html">Home</a></li>
+        <li><a class="active" href="/english/stories.html">Stories</a></li>
+        <li><a href="/english/vocab.html">Vocabulary</a></li>
+        <li><a href="/english/grammar.html">Grammar</a></li>
+        <li><a href="/english/scriptures/scriptures.html">Scriptures</a></li>
+        <li><a href="/english/contact_us.html">Contact</a></li>
+        <li><img id="gearTriggerHorizontal" src="/images/settings.png" width="25" height="25" alt="Settings" draggable="false" style="cursor: pointer;" onmouseover="this.style.filter='grayscale(100%)'" onmouseout="this.style.filter='none'"/></li>
+      </ul>
+
+      <!-- Hamburger Button -->
+      <button class="hamburger-btn" id="hamburger" onclick="toggleHamburger()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+    <!-- end Navbar -->
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/english/stories.html">Stories</a></li>
+        <li aria-current="page">The Tortoise and the Hare</li>
+      </ol>
+    </nav>
+    <!-- end Navbar -->
+
+    <!-- Floating Window for font size settings -->
+    <div class="floating-window-centered" id="fontMenu">
+      <h3>Select English Font Size</h3>
+      <div>
+        <div class="font-controls" data-lang="alt">
+          <a style="font-size: 16px;" href="#" data-size="16px">A</a>
+          <a style="font-size: 18px;" href="#" data-size="18px">A</a>
+          <a style="font-size: 20px;" href="#" data-size="20px">A</a>
+          <a style="font-size: 24px;" href="#" data-size="24px">A</a>
+        </div>
+      </div>
+      <br />
+      <h3>Select Sanskrit Font Size</h3>
+      <div>
+        <div class="font-controls" data-lang="sanskrit">
+          <a style="font-size: 16px;" href="#" data-size="16px">अ</a>
+          <a style="font-size: 18px;" href="#" data-size="18px">अ</a>
+          <a style="font-size: 20px;" href="#" data-size="20px">अ</a>
+          <a style="font-size: 24px;" href="#" data-size="24px">अ</a>
+        </div>
+      </div>
+    </div>
+    <!-- End Floating Window for font size settings -->
+
+    <!-- Main -->
+    <main>
+      <!-- vertical menu -->
+      <div class="sk-vert-menu link-container alt-lang" id="sk-vert-menu">
+        <a href="/index.html">Home</a>
+        <hr class="link-container" />
+        <a class="sk-vert-menu-item" href="/english/stories.html">Stories</a>
+        <hr class="link-container" />
+        <a href="/english/vocab.html">Vocabulary</a>
+        <hr class="link-container" />
+        <a href="/english/grammar.html">Grammar</a>
+        <hr class="link-container" />
+        <a href="/english/scriptures/scriptures.html">Scriptures</a>
+        <hr class="link-container" />
+        <a href="/english/contact_us.html">Contact</a>
+        <hr class="link-container" />
+        <img id="gearTriggerVertical" style="margin: 9px 0px 9px 15px; cursor: pointer;" src="/images/settings.png" width="25" height="25" alt="Settings" draggable="false" onmouseover="this.style.filter='grayscale(100%)'" onmouseout="this.style.filter='none'"/>
+        <hr class="link-container" />
+        <br />
+      </div>
+
+      <!-- end vertical menu -->
+
+      <!-- language links -->
+      <!--
+      <div style="padding: 10px">
+        <br />
+        <br />
+        <p class="stretched_center">
+          <a class="url-no-underline" href="hindi/index.html" style="padding: 0px 10px 0px 10px" >हिन्दी</a>
+          <a class="url-no-underline" href="kannada/index.html" style="padding: 0px 0px 0px 10px" >ಕನ್ನಡ</a>
+        </p>
+        <br />
+      </div>
+      -->
+      <!-- end language links -->
+
+      <table border="0">
+        <tr>
+          <td class="table-audio-quiz">कूर्मः शशकश्च</td>
+          <td class="table-audio-quiz">The Tortoise and the Hare</td>
+          <td class="table-audio-quiz">
+            <span class="ss-tooltip">
+              <a href="/english/stories/short_stories/quiz_html/tortoise_quiz.html">
+                <img src="/images/icons/quiz.png" alt="Quiz" width="30">
+              </a>
+              <span class="ss-tooltip-text">Vocabulary quiz</span>
+            </span>
+          </td>
+        </tr>
+      </table>
+
+      <div class="custom-audio-player">
+        <img id="play-pause-btn" src="/images/icons/play_audio.png" alt="Play" />
+        <span id="current-time">0:00</span>
+        <input type="range" id="progress-bar" value="0" step="1" />
+        <span id="duration">0:00</span>
+      </div>
+
+      <audio id="story-audio" src="/audio/yet_to_record.m4a"></audio>
+      <br />
+      <div id="tooltips-container">
+        <div class="sanskrit">
+            <span class="tooltip-container hover-text " data-tooltip="Once">एकदा</span>
+            <span class="tooltip-container hover-text " data-tooltip="a, one">एकः</span>
+            <span class="tooltip-container hover-text " data-tooltip="hare">शशकः</span>
+            <span class="tooltip-container hover-text " data-tooltip="of his own">स्वस्य</span>
+            <span class="tooltip-container hover-text " data-tooltip="with running speed">धावनवेगेन</span>
+            <span class="tooltip-container hover-text " data-tooltip="pride, arrogance">गर्वं</span>
+            <span class="tooltip-container hover-text " data-tooltip="was doing">करोति स्म</span>
+            <span class="tooltip-container hover-text " data-tooltip="Once, a hare was boasting about how fast he could run.">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="He">सः</span>
+            <span class="tooltip-container hover-text " data-tooltip="tortoise, turtle">कूर्मम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="used to mock, laugh at">उपहसति स्म</span>
+            <span class="tooltip-container hover-text " data-tooltip="because">यतः</span>
+            <span class="tooltip-container hover-text " data-tooltip="he">सः</span>
+            <span class="tooltip-container hover-text " data-tooltip="very much, extremely">अतिशयेन</span>
+            <span class="tooltip-container hover-text " data-tooltip="slow-moving">मन्दगामी</span>
+            <span class="tooltip-container hover-text " data-tooltip="was">आसीत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="He laughed at a tortoise for being extremely slow.">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="Tortoise">कूर्मः</span>
+            <span class="tooltip-container hover-text " data-tooltip="calmly">शान्ततया</span>
+            <span class="tooltip-container hover-text " data-tooltip="replied">प्रत्यवदत्</span>
+            <span class="quote">
+            <span class="tooltip-container hover-text " data-tooltip="You">त्वं</span>
+            <span class="tooltip-container hover-text " data-tooltip="fast-moving">शीघ्रगामी</span>
+            <span class="tooltip-container hover-text " data-tooltip="are">भवसि</span>
+            <span class="tooltip-container hover-text " data-tooltip="but">किन्तु</span>
+            <span class="tooltip-container hover-text " data-tooltip="I">अहं</span>
+            <span class="tooltip-container hover-text " data-tooltip="in a competition, race">स्पर्धायां</span>
+            <span class="tooltip-container hover-text " data-tooltip="you">त्वां</span>
+            <span class="tooltip-container hover-text " data-tooltip="to defeat">पराजेतुं</span>
+            <span class="tooltip-container hover-text " data-tooltip="I can, I am able">शक्नोमि</span>
+            <span class="tooltip-container hover-text " data-tooltip="The tortoise calmly replied, “You may be fast, but I can defeat you in a race.”">&nbsp; । &nbsp;</span>
+            </span>
+
+            <span class="tooltip-container hover-text " data-tooltip="The hare">शशकः</span>
+            <span class="tooltip-container hover-text " data-tooltip="loudly">उच्चैः</span>
+            <span class="tooltip-container hover-text " data-tooltip="laughed">अहसत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="The hare laughed loudly.">&nbsp; । &nbsp;</span>
+            <span class="quote">
+            <span class="tooltip-container hover-text " data-tooltip="This">एतद्</span>
+            <span class="tooltip-container hover-text " data-tooltip="impossible">अशक्यम्!</span>
+            <span class="tooltip-container hover-text " data-tooltip="still, nevertheless">तथापि</span>
+            <span class="tooltip-container hover-text " data-tooltip="your">तव</span>
+            <span class="tooltip-container hover-text " data-tooltip="challenge">आह्वानं</span>
+            <span class="tooltip-container hover-text " data-tooltip="accepted">स्वीकृतवान्</span>
+            <span class="tooltip-container hover-text " data-tooltip="I have">अस्मि</span>
+            <span class="tooltip-container hover-text " data-tooltip="“That's impossible! But I still accept your challenge.”">&nbsp; । &nbsp;</span>
+            </span>
+            <br /><br />
+
+            <span class="tooltip-container hover-text " data-tooltip="Of the forest">वनस्य</span>
+            <span class="tooltip-container hover-text " data-tooltip="animals">पशवः</span>
+            <span class="tooltip-container hover-text " data-tooltip="race, competition">स्पर्धां</span>
+            <span class="tooltip-container hover-text " data-tooltip="to see, to watch">द्रष्टुं</span>
+            <span class="tooltip-container hover-text " data-tooltip="gathered, came together">समागताः</span>
+            <span class="tooltip-container hover-text " data-tooltip="The animals of the forest gathered to watch the race.">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="One">एकः</span>
+            <span class="tooltip-container hover-text " data-tooltip="fox">लोमशः</span>
+            <span class="tooltip-container hover-text " data-tooltip="starting point">आरम्भबिन्दुं</span>
+            <span class="tooltip-container hover-text " data-tooltip="finishing point">समाप्तिबिन्दुं</span>
+            <span class="tooltip-container hover-text " data-tooltip="and">च</span>
+            <span class="tooltip-container hover-text " data-tooltip="marked">अचिह्नयत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="A fox marked the starting point and the finish line.">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="When">यदा</span>
+            <span class="tooltip-container hover-text " data-tooltip="race">स्पर्धा</span>
+            <span class="tooltip-container hover-text " data-tooltip="began">आरब्धा</span>
+            <span class="tooltip-container hover-text " data-tooltip="then">तदा</span>
+            <span class="tooltip-container hover-text " data-tooltip="hare">शशकः</span>
+            <span class="tooltip-container hover-text " data-tooltip="quickly, with speed">वेगेन</span>
+            <span class="tooltip-container hover-text " data-tooltip="ran">अधावत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="and">तथा</span>
+            <span class="tooltip-container hover-text " data-tooltip="tortoise">कूर्मं</span>
+            <span class="tooltip-container hover-text " data-tooltip="much, far">बहु</span>
+            <span class="tooltip-container hover-text " data-tooltip="behind">पृष्ठे</span>
+            <span class="tooltip-container hover-text " data-tooltip="left behind">त्यक्तवान्</span>
+            <span class="tooltip-container hover-text " data-tooltip="When the race began, the hare ran away quickly and left the tortoise far behind.">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="A little">किञ्चित्</span>
+            <span class="tooltip-container hover-text " data-tooltip="distance">दूरं</span>
+            <span class="tooltip-container hover-text " data-tooltip="having run">धावित्वा</span>
+            <span class="tooltip-container hover-text " data-tooltip="he">सः</span>
+            <span class="tooltip-container hover-text " data-tooltip="backward, behind">पश्चात्</span>
+            <span class="tooltip-container hover-text " data-tooltip="looked">अपश्यत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="and">तथा</span>
+            <span class="tooltip-container hover-text " data-tooltip="slowly, gradually">शनैः शनैः</span>
+            <span class="tooltip-container hover-text " data-tooltip="going">गच्छन्तं</span>
+            <span class="tooltip-container hover-text " data-tooltip="tortoise">कूर्मम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="saw">अद्राक्षीत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="Having run a short distance, the hare looked back and saw the tortoise slowly walking along.">&nbsp; । &nbsp;</span>
+
+            <span class="quote">
+            <span class="tooltip-container hover-text " data-tooltip="This">एषः</span>
+            <span class="tooltip-container hover-text " data-tooltip="slow-moving">मन्दगामी</span>
+            <span class="tooltip-container hover-text " data-tooltip="creature, animal">प्राणी</span>
+            <span class="tooltip-container hover-text " data-tooltip="me">मां</span>
+            <span class="tooltip-container hover-text " data-tooltip="ever">कदापि</span>
+            <span class="tooltip-container hover-text " data-tooltip="not">न</span>
+            <span class="tooltip-container hover-text " data-tooltip="will reach / will catch">प्राप्स्यति</span>
+            </span>
+            <span class="tooltip-container hover-text " data-tooltip="thus">इति</span>
+            <span class="tooltip-container hover-text " data-tooltip="hare">शशकः</span>
+            <span class="tooltip-container hover-text " data-tooltip="thought">अचिन्तयत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="“This slow moving creature can never can catch me,” thought the hare.">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="With confidence">आत्मविश्वासेन</span>
+            <span class="tooltip-container hover-text " data-tooltip="full">पूर्णः</span>
+            <span class="tooltip-container hover-text " data-tooltip="he">सः</span>
+            <span class="tooltip-container hover-text " data-tooltip="of the tree">वृक्षस्य</span>
+            <span class="tooltip-container hover-text " data-tooltip="in the shade">छायायां</span>
+            <span class="tooltip-container hover-text " data-tooltip="for rest">विश्रामार्थं</span>
+            <span class="tooltip-container hover-text " data-tooltip="slept">सुप्तवान्</span>
+            <span class="tooltip-container hover-text " data-tooltip="With full of confidence, he slept under the shade of a tree to rest.">&nbsp; । &nbsp;</span>
+            <br />
+            <br />
+            <span class="tooltip-container hover-text " data-tooltip="At that time">तस्मिन् समये</span>
+            <span class="tooltip-container hover-text " data-tooltip="tortoise">कूर्मः</span>
+            <span class="tooltip-container hover-text " data-tooltip="forward">अग्रे</span>
+            <span class="tooltip-container hover-text " data-tooltip="only">एव</span>
+            <span class="tooltip-container hover-text " data-tooltip="went">अगच्छत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="Meanwhile, the tortoise continued moving forward">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="He">सः</span>
+            <span class="tooltip-container hover-text " data-tooltip="one by one">एकैकं</span>
+            <span class="tooltip-container hover-text " data-tooltip="slowly">मन्दं</span>
+            <span class="tooltip-container hover-text " data-tooltip="steadily">स्थिरं</span>
+            <span class="tooltip-container hover-text " data-tooltip="and">च</span>
+            <span class="tooltip-container hover-text " data-tooltip="step">पदं</span>
+            <span class="tooltip-container hover-text " data-tooltip="placed, put">न्यदधात्</span>
+            <span class="tooltip-container hover-text " data-tooltip="One slow and steady step at a time">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="He">सः</span>
+            <span class="tooltip-container hover-text " data-tooltip="for rest">विश्रामाय</span>
+            <span class="tooltip-container hover-text " data-tooltip="not">न</span>
+            <span class="tooltip-container hover-text " data-tooltip="stopped">स्थितवान्</span>
+            <span class="tooltip-container hover-text " data-tooltip="He did not stop to rest.">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="He">सः</span>
+            <span class="tooltip-container hover-text " data-tooltip="only">केवलं</span>
+            <span class="tooltip-container hover-text " data-tooltip="just going">गच्छन् एव</span>
+            <span class="tooltip-container hover-text " data-tooltip="was">आसीत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="He just kept going.">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="Hare">शशकः</span>
+            <span class="tooltip-container hover-text " data-tooltip="as long as, while">यावत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="thought">चिन्तितवान्</span>
+            <span class="tooltip-container hover-text " data-tooltip="than that, from that">तस्मात्</span>
+            <span class="tooltip-container hover-text " data-tooltip="longer time">अधिककालं</span>
+            <span class="tooltip-container hover-text " data-tooltip="slept">सुप्तवान्</span>
+            <span class="tooltip-container hover-text " data-tooltip="The hare slept much longer than he intended.">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="Finally, in the end">अन्ते</span>
+            <span class="tooltip-container hover-text " data-tooltip="when">यदा</span>
+            <span class="tooltip-container hover-text " data-tooltip="he">सः</span>
+            <span class="tooltip-container hover-text " data-tooltip="awakened">प्रबुद्धः</span>
+            <span class="tooltip-container hover-text " data-tooltip="then">तदा</span>
+            <span class="tooltip-container hover-text " data-tooltip="he">सः</span>
+            <span class="tooltip-container hover-text " data-tooltip="finish point">समाप्तिबिन्दुं</span>
+            <span class="tooltip-container hover-text " data-tooltip="towards">प्रति</span>
+            <span class="tooltip-container hover-text " data-tooltip="looked">अपश्यत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="and">तथा</span>
+            <span class="tooltip-container hover-text " data-tooltip="tortoise">कूर्मं</span>
+            <span class="tooltip-container hover-text " data-tooltip="near him">तस्य समीपे</span>
+            <span class="tooltip-container hover-text " data-tooltip="having seen">दृष्ट्वा</span>
+            <span class="tooltip-container hover-text " data-tooltip="surprised">विस्मितः</span>
+            <span class="tooltip-container hover-text " data-tooltip="became">अभवत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="When he finally woke up, he looked toward the finish
+                line and was shocked to see the tortoise almost there.">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="Hare">शशकः</span>
+            <span class="tooltip-container hover-text " data-tooltip="suddenly">सहसा</span>
+            <span class="tooltip-container hover-text " data-tooltip="having stood up">उत्थाय</span>
+            <span class="tooltip-container hover-text " data-tooltip="as much as possible">यथाशक्ति</span>
+            <span class="tooltip-container hover-text " data-tooltip="ran">अधावत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="The hare jumped to his feet and ran as fast as he could.">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="But">किन्तु</span>
+            <span class="tooltip-container hover-text " data-tooltip="very">अतीव</span>
+            <span class="tooltip-container hover-text " data-tooltip="delay">विलम्बः</span>
+            <span class="tooltip-container hover-text " data-tooltip="had happened">जातः आसीत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="But it was too late.">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="Tortoise">कूर्मः</span>
+            <span class="tooltip-container hover-text " data-tooltip="first">प्रथमः</span>
+            <span class="tooltip-container hover-text " data-tooltip="finish line">समाप्तिबिन्दुं</span>
+            <span class="tooltip-container hover-text " data-tooltip="reached">प्राप्तवान्</span>
+            <span class="tooltip-container hover-text " data-tooltip="The tortoise crossed the finish line first.">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="Animals">पशवः</span>
+            <span class="tooltip-container hover-text " data-tooltip="of the tortoise">कूर्मस्य</span>
+            <span class="tooltip-container hover-text " data-tooltip="cheering, victory sound">जयध्वनिं</span>
+            <span class="tooltip-container hover-text " data-tooltip="made, did">कृतवन्तः</span>
+            <span class="tooltip-container hover-text " data-tooltip="The animals cheered for the tortoise.">&nbsp; । &nbsp;</span>
+
+            <span class="tooltip-container hover-text " data-tooltip="Hare">शशकः</span>
+            <span class="tooltip-container hover-text " data-tooltip="with shame">लज्जया</span>
+            <span class="tooltip-container hover-text " data-tooltip="his head">स्वशिरः</span>
+            <span class="tooltip-container hover-text " data-tooltip="down">अधो</span>
+            <span class="tooltip-container hover-text " data-tooltip="lowered">नीतवान्</span>
+            <span class="tooltip-container hover-text " data-tooltip="The hare hung his head in shame.">&nbsp; । &nbsp;</span>
+
+
+            <span class="tooltip-container hover-text " data-tooltip="Tortoise">कूर्मः</span>
+            <span class="tooltip-container hover-text " data-tooltip="with a smile">स्मितपूर्वकम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="said">अवदत्</span>
+            <span class="quote">
+            <span class="tooltip-container hover-text " data-tooltip="slowly">मन्दं</span>
+            <span class="tooltip-container hover-text " data-tooltip="slowly">मन्दं</span>
+            <span class="tooltip-container hover-text " data-tooltip="going">गच्छन्</span>
+            <span class="tooltip-container hover-text " data-tooltip="even">अपि</span>
+            <span class="tooltip-container hover-text " data-tooltip="steady effort">स्थिरप्रयत्नः</span>
+            <span class="tooltip-container hover-text " data-tooltip="victory">विजयम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="brings, leads to">आवहति</span>
+            <span class="tooltip-container hover-text " data-tooltip="The tortoise smiled and said, “Slow and steady wins the race.”">&nbsp; । &nbsp;</span>
+            </span>
+          <br /> <br />
+        </div>
+        <!-- class="devanagari" -->
+      </div>
+      <!-- id="tooltips-container" -->
+    </main>
+    <!-- end Main -->
+
+    <div id="tooltip"></div>
+
+    <!-- footer -->
+    <footer>
+      <!--
+      <ul class="footer-links">
+      <li><a href="">Terms</a></li>
+      </ul>
+      -->
+      <div class="copyright">सत्यमेव जयते</div>
+    </footer>
+    <!-- end Footer -->
+
+    <script src="/scripts/tooltip.js"></script>
+    <script src="/scripts/settings.js"></script>
+    <script src="/scripts/playaudio.js"></script>
+  </body>
+</html>
