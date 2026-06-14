@@ -13,15 +13,15 @@
     <!-- END Sanskrit One Google tag (gtag.js) -->
 
     <!-- SEO tags -->
-    <title>TODO</title>
-    <meta name="description" content="TODO - a story in Sanskrit">
+    <title>The thristy crow</title>
+    <meta name="description" content="The thristy crow - vocabulay quiz">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.sanskrit.one/english/stories/short_stories/TODO.html">
+    <link rel="canonical" href="https://www.sanskrit.one/english/stories/short_stories/quiz_html/crow_quiz.html">
 
     <!-- Open Graph for social sharing -->
-    <meta property="og:title" content="TODO">
-    <meta property="og:description" content="TODO - a story in Sanskrit">
+    <meta property="og:title" content="The thristy crow">
+    <meta property="og:description" content="The thristy crow - vocabulay quiz">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.sanskrit.one">
     <meta property="og:site_name" content="www.sanskrit.one" />
@@ -31,8 +31,8 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="TODO">
-    <meta name="twitter:description" content="TODO - a story in Sanskrit">
+    <meta name="twitter:title" content="The thristy crow">
+    <meta name="twitter:description" content="The thristy crow - vocabulay quiz">
     <meta name="twitter:image" content="https://www.sanskrit.one/images/sanskrit_one.png">
 
     <link rel="icon" type="image/png" href="/images/icons/favicon.png">
@@ -48,7 +48,7 @@
       "educationalProgramMode": "online",
       "provider": {
         "@type": "Organization",
-        "name": "Sanskrit One",
+        "name": "Saskrit One",
         "url": "https://www.sanskrit.one"
       }
     }
@@ -66,7 +66,7 @@
     <!-- end fonts hosted by me -->
 
     <link rel="stylesheet" href="/styles/styles.css" />
-    <link rel="stylesheet" href="/styles/audio_player.css" />
+    <link rel="stylesheet" href="/styles/vocab_quiz.css" />
     <script src="/scripts/script.js"></script>
   </head>
   <body>
@@ -95,12 +95,12 @@
     </nav>
     <!-- end Navbar -->
 
+    <!-- Breadcrumb -->
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <ol>
         <li><a href="/index.html">Home</a></li>
         <li><a href="/english/stories.html">Stories</a></li>
-        <li><a href="/english/chanda_stories.html">Chandamama stories</a></li>
-        <li aria-current="page">TODO</li>
+        <li aria-current="page">The thristy crow</li>
       </ol>
     </nav>
     <!-- end Navbar -->
@@ -166,42 +166,60 @@
       -->
       <!-- end language links -->
 
-      <table border="0">
-        <tr>
-          <td class="table-audio-quiz">TODO Sanskrit</td>
-          <td class="table-audio-quiz">TODO English</td>
-          <td class="table-audio-quiz">
-            <span class="ss-tooltip">
-              <a href="quiz_html/ambarishaha_quiz.html">
-                <img src="/images/icons/quiz.png" alt="Quiz" width="30">
-              </a>
-              <span class="ss-tooltip-text">Vocabulary quiz</span>
-            </span>
-          </td>
-        </tr>
-      </table>
+<div class="quiz-container">
+  <div class="title-bar">
+    <h3><span>The thristy crow quiz</span> <span id="quiz-title">(0)</span></h3>
+  </div>
 
-      <div class="custom-audio-player">
-        <img id="play-pause-btn" src="/images/icons/play_audio.png" alt="Play" />
-        <span id="current-time">0:00</span>
-        <input type="range" id="progress-bar" value="0" step="1" />
-        <span id="duration">0:00</span>
-      </div>
+    <!-- to select vocabulary range -->
+    <div class="range-selectors">
+      <span id="span-range-select">
+        <label id="label-range-select">Start:
+          <select id="start-select"></select> <!-- was start-index -->
+        </label>
+      </span>
+      <span id="span-range-select">
+        <label id="label-range-select">End:
+          <select id="end-select"></select> <!-- was end-index -->
+        </label>
+      </span>
+      <select id="mode-select">
+        <option value="en-to-sans">English → Sanskrit</option>
+        <option value="sans-to-en">Sanskrit → English</option>
+      </select>
+    </div>
+    <!-- end to select vocabulary range -->
 
-      <audio id="story-audio" src="/audio/yet_to_record.m4a"></audio>
-      <br />
-      <div id="tooltips-container">
-        <div class="sanskrit">
-            STORY GOES HERE
-          <br /> <br /> <br /> <br />
-        </div>
-        <!-- class="devanagari" -->
-      </div>
-      <!-- id="tooltips-container" -->
+  <div class="score-grid">
+    <div class="score-label">Correct</div>
+    <div class="score-label">Question</div>
+    <div class="score-label">Wrong</div>
+    <div class="score-value" id="score-correct">0</div>
+    <div class="score-value" id="progress">0 of 0</div>
+    <div class="score-value" id="score-wrong">0</div>
+  </div>
+
+  <div id="quiz">
+    <div id="question-block" class="question-block sanskrit">
+      <div id="question-text"></div>
+      <form id="options-form" class="options"></form>
+        <button id="submit-btn" style="margin-right: 10px;">Check Answer</button>
+        <button id="skip-btn" style="margin-right: 10px;">Skip</button>
+        <button id="show-btn">Show</button>
+    </div>
+    <button id="restart-btn" style="display:none">Restart Quiz</button>
+  </div>
+
+  <div id="feedback" class="hidden">
+    <div class="feedback-box">
+      <p id="feedback-message"></p>
+      <button onclick="closeFeedback()">Continue</button>
+    </div>
+  </div>
+</div> <!-- end <div class="quiz-container"> -->
+
     </main>
     <!-- end Main -->
-
-    <div id="tooltip"></div>
 
     <!-- footer -->
     <footer>
@@ -214,8 +232,8 @@
     </footer>
     <!-- end Footer -->
 
-    <script src="/scripts/tooltip.js"></script>
     <script src="/scripts/settings.js"></script>
-    <script src="/scripts/playaudio.js"></script>
+    <script src="/english/stories/short_stories/quiz_data/crow_quiz_data.js"></script>
+    <script type="module" src="/scripts/vocab_quiz.js"></script>
   </body>
 </html>
