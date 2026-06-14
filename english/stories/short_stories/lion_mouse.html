@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- START Sanskrit One Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VQFJHC8SE8"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VQFJHC8SE8');
+    </script>
+    <!-- END Sanskrit One Google tag (gtag.js) -->
+
+    <!-- SEO tags -->
+    <title>The lion and the mouse</title>
+    <meta name="description" content="The lion and the mouse - a short story in Sanskrit">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.sanskrit.one/english/stories/short_stories/lion_mouse.html">
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="The lion and the mouse">
+    <meta property="og:description" content="The lion and the mouse - a short story in Sanskrit">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.sanskrit.one">
+    <meta property="og:site_name" content="www.sanskrit.one" />
+    <meta property="og:image" content="https://www.sanskrit.one/images/sanskrit_one.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The lion and the mouse">
+    <meta name="twitter:description" content="The lion and the mouse - a short story in Sanskrit">
+    <meta name="twitter:image" content="https://www.sanskrit.one/images/sanskrit_one.png">
+
+    <link rel="icon" type="image/png" href="/images/icons/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/touch_icon.png">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOccupationalProgram",
+      "name": "Learn Sanskrit",
+      "description": "Free resources for learning Sanskrit.",
+      "educationalProgramMode": "online",
+      "provider": {
+        "@type": "Organization",
+        "name": "Sanskrit One",
+        "url": "https://www.sanskrit.one"
+      }
+    }
+    </script>
+    <!-- end SEO tags -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts hosted by me -->
+    <link rel="preload" href="/fonts/roboto-slab-v35-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/roboto-slab-v35-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/martel-v11-devanagari-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/martel-v11-devanagari-400.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- end fonts hosted by me -->
+
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="../../../styles/audio_player.css" />
+    <script src="/scripts/script.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="left-group">
+        <img src="/images/logo.png" alt="Logo" draggable="false" />
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/index.html">Home</a></li>
+        <li><a class="active" href="/english/stories.html">Stories</a></li>
+        <li><a href="/english/vocab.html">Vocabulary</a></li>
+        <li><a href="/english/grammar.html">Grammar</a></li>
+        <li><a href="/english/scriptures/scriptures.html">Scriptures</a></li>
+        <li><a href="/english/contact_us.html">Contact</a></li>
+        <li><img id="gearTriggerHorizontal" src="/images/settings.png" width="25" height="25" alt="Settings" draggable="false" style="cursor: pointer;" onmouseover="this.style.filter='grayscale(100%)'" onmouseout="this.style.filter='none'"/></li>
+      </ul>
+
+      <!-- Hamburger Button -->
+      <button class="hamburger-btn" id="hamburger" onclick="toggleHamburger()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+    <!-- end Navbar -->
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/english/stories.html">Stories</a></li>
+        <li aria-current="page">The lion and the mouse</li>
+      </ol>
+    </nav>
+    <!-- end Navbar -->
+
+    <!-- Floating Window for font size settings -->
+    <div class="floating-window-centered" id="fontMenu">
+      <h3>Select English Font Size</h3>
+      <div>
+        <div class="font-controls" data-lang="alt">
+          <a style="font-size: 16px;" href="#" data-size="16px">A</a>
+          <a style="font-size: 18px;" href="#" data-size="18px">A</a>
+          <a style="font-size: 20px;" href="#" data-size="20px">A</a>
+          <a style="font-size: 24px;" href="#" data-size="24px">A</a>
+        </div>
+      </div>
+      <br />
+      <h3>Select Sanskrit Font Size</h3>
+      <div>
+        <div class="font-controls" data-lang="sanskrit">
+          <a style="font-size: 16px;" href="#" data-size="16px">अ</a>
+          <a style="font-size: 18px;" href="#" data-size="18px">अ</a>
+          <a style="font-size: 20px;" href="#" data-size="20px">अ</a>
+          <a style="font-size: 24px;" href="#" data-size="24px">अ</a>
+        </div>
+      </div>
+    </div>
+    <!-- End Floating Window for font size settings -->
+
+    <!-- Main -->
+    <main>
+      <!-- vertical menu -->
+      <div class="sk-vert-menu link-container alt-lang" id="sk-vert-menu">
+        <a href="/index.html">Home</a>
+        <hr class="link-container" />
+        <a class="sk-vert-menu-item" href="/english/stories.html">Stories</a>
+        <hr class="link-container" />
+        <a href="/english/vocab.html">Vocabulary</a>
+        <hr class="link-container" />
+        <a href="/english/grammar.html">Grammar</a>
+        <hr class="link-container" />
+        <a href="/english/scriptures/scriptures.html">Scriptures</a>
+        <hr class="link-container" />
+        <a href="/english/contact_us.html">Contact</a>
+        <hr class="link-container" />
+        <img id="gearTriggerVertical" style="margin: 9px 0px 9px 15px; cursor: pointer;" src="/images/settings.png" width="25" height="25" alt="Settings" draggable="false" onmouseover="this.style.filter='grayscale(100%)'" onmouseout="this.style.filter='none'"/>
+        <hr class="link-container" />
+        <br />
+      </div>
+
+      <!-- end vertical menu -->
+
+      <!-- language links -->
+      <!--
+      <div style="padding: 10px">
+        <br />
+        <br />
+        <p class="stretched_center">
+          <a class="url-no-underline" href="hindi/index.html" style="padding: 0px 10px 0px 10px" >हिन्दी</a>
+          <a class="url-no-underline" href="kannada/index.html" style="padding: 0px 0px 0px 10px" >ಕನ್ನಡ</a>
+        </p>
+        <br />
+      </div>
+      -->
+      <!-- end language links -->
+
+      <table border="0">
+        <tr>
+          <td class="table-audio-quiz">सिंहः मूषकः च</td>
+          <td class="table-audio-quiz">The lion and the mouse</td>
+          <td class="table-audio-quiz">
+            <span class="ss-tooltip">
+              <a href="/english/stories/short_stories/quiz_html/lion_mouse_quiz.html">
+                <img src="/images/icons/quiz.png" alt="Quiz" width="30">
+              </a>
+              <span class="ss-tooltip-text">Vocabulary quiz</span>
+            </span>
+          </td>
+        </tr>
+      </table>
+
+      <div class="custom-audio-player">
+        <img id="play-pause-btn" src="/images/icons/play_audio.png" alt="Play" />
+        <span id="current-time">0:00</span>
+        <input type="range" id="progress-bar" value="0" step="1" />
+        <span id="duration">0:00</span>
+      </div>
+
+      <audio id="story-audio" src="/audio/yet_to_record.m4a"></audio>
+      <br />
+      <div id="tooltips-container">
+        <div class="sanskrit">
+          <span class="tooltip-container hover-text " data-tooltip="Once">एकदा</span>
+          <span class="tooltip-container hover-text " data-tooltip="one">एकः</span>
+          <span class="tooltip-container hover-text " data-tooltip="lion">सिंहः</span>
+          <span class="tooltip-container hover-text " data-tooltip="of the tree">वृक्षस्य</span>
+          <span class="tooltip-container hover-text " data-tooltip="under, below">अधः</span>
+          <span class="tooltip-container hover-text " data-tooltip="sleep">निद्रां</span>
+          <span class="tooltip-container hover-text " data-tooltip="does, was doing">करोति स्म</span>
+          <span class="tooltip-container hover-text " data-tooltip="Once, a lion was sleeping under a tree.">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="At that">तस्मिन्</span>
+          <span class="tooltip-container hover-text " data-tooltip="time">समये</span>
+          <span class="tooltip-container hover-text " data-tooltip="one">एकः</span>
+          <span class="tooltip-container hover-text " data-tooltip="small">लघुः</span>
+          <span class="tooltip-container hover-text " data-tooltip="mouse">मूषकः</span>
+          <span class="tooltip-container hover-text " data-tooltip="his">तस्य</span>
+          <span class="tooltip-container hover-text " data-tooltip="body">शरीरे</span>
+          <span class="tooltip-container hover-text " data-tooltip="to run">धावितुम्</span>
+          <span class="tooltip-container hover-text " data-tooltip="began">आरब्धवान्</span>
+          <span class="tooltip-container hover-text " data-tooltip="At that time, a small mouse began running
+            on his body.">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="Of the mouse">मूषकस्य</span>
+          <span class="tooltip-container hover-text " data-tooltip="by the running">धावनेन</span>
+          <span class="tooltip-container hover-text " data-tooltip="of the lion">सिंहस्य</span>
+          <span class="tooltip-container hover-text " data-tooltip="sleep">निद्रा</span>
+          <span class="tooltip-container hover-text " data-tooltip="broken, interrupted">भङ्गा</span>
+          <span class="tooltip-container hover-text " data-tooltip="became, happened">अभवत्</span>
+          <span class="tooltip-container hover-text " data-tooltip="Because of the mouse’s running,
+            the lion’s sleep was disturbed.">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="Lion">सिंहः</span>
+          <span class="tooltip-container hover-text " data-tooltip="angry">क्रुद्धः</span>
+          <span class="tooltip-container hover-text " data-tooltip="became">अभवत्</span>
+          <span class="tooltip-container hover-text " data-tooltip="The lion became angry.">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="He">सः</span>
+          <span class="tooltip-container hover-text " data-tooltip="mouse">मूषकम्</span>
+          <span class="tooltip-container hover-text " data-tooltip="with his own paw/claw">स्वपञ्जरेण</span>
+          <span class="tooltip-container hover-text " data-tooltip="seized, caught">अगृह्णात्</span>
+          <span class="tooltip-container hover-text " data-tooltip="He seized the mouse with his paw.">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="Mouse">मूषकः</span>
+          <span class="tooltip-container hover-text " data-tooltip="frightened">भयभीतः</span>
+          <span class="tooltip-container hover-text " data-tooltip="became">अभवत्</span>
+          <span class="tooltip-container hover-text " data-tooltip="The mouse became frightened">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="He">सः</span>
+          <span class="tooltip-container hover-text " data-tooltip="requested, prayed">प्रार्थितवान्</span>
+          <span class="quote">
+            <span class="tooltip-container hover-text " data-tooltip="O">हे</span>
+            <span class="tooltip-container hover-text " data-tooltip="lion-king">सिंहराज</span>
+            <span class="tooltip-container hover-text " data-tooltip="please">कृपया</span>
+            <span class="tooltip-container hover-text " data-tooltip="me">माम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="release">मुञ्च  । </span>
+            <span class="tooltip-container hover-text " data-tooltip="In the future">भविष्ये</span>
+            <span class="tooltip-container hover-text " data-tooltip="I">अहम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="your">भवतः</span>
+            <span class="tooltip-container hover-text " data-tooltip="help">साहाय्यम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="will do">करिष्यामि</span>
+          </span>
+          <span class="tooltip-container hover-text " data-tooltip="He pleaded, “O lion-king! Please
+              release me. In the future, I will help you.”">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="Lion">सिंहः</span>
+          <span class="tooltip-container hover-text " data-tooltip="laughed">अहसत्</span>
+          <span class="tooltip-container hover-text " data-tooltip="The lion laughed">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="He">सः</span>
+          <span class="tooltip-container hover-text " data-tooltip="thought">अचिन्तयत्</span>
+
+          <span class="quote">
+            <span class="tooltip-container hover-text " data-tooltip="this">एषः</span>
+            <span class="tooltip-container hover-text " data-tooltip="small">लघुः</span>
+            <span class="tooltip-container hover-text " data-tooltip="mouse">मूषकः  । </span>
+            <span class="tooltip-container hover-text " data-tooltip="My">मम</span>
+            <span class="tooltip-container hover-text " data-tooltip="help">साहाय्यम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="how">कथम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="will he do">करिष्यति ?</span>
+          </span>
+          <span class="tooltip-container hover-text " data-tooltip="Nevertheless">तथापि</span>
+          <span class="tooltip-container hover-text " data-tooltip="he">सः</span>
+          <span class="tooltip-container hover-text " data-tooltip="having shown compassion">दयां कृत्वा</span>
+          <span class="tooltip-container hover-text " data-tooltip="mouse">मूषकम्</span>
+          <span class="tooltip-container hover-text " data-tooltip="released">मुक्तवान्</span>
+          <span class="tooltip-container hover-text " data-tooltip="He thought, “How will this small mouse help me?” Nevertheless,
+            showing compassion, he released the mouse.">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="After a few days">कतिपयदिनानन्तरम्</span>
+          <span class="tooltip-container hover-text " data-tooltip="lion">सिंहः</span>
+          <span class="tooltip-container hover-text " data-tooltip="of a hunter">शिकाऱिणः</span>
+          <span class="tooltip-container hover-text " data-tooltip="in a net">जाले</span>
+          <span class="tooltip-container hover-text " data-tooltip="fell">पतितः</span>
+          <span class="tooltip-container hover-text " data-tooltip="After a few days, the lion fell into a hunter’s net.">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="He">सः</span>
+          <span class="tooltip-container hover-text " data-tooltip="much">बहु</span>
+          <span class="tooltip-container hover-text " data-tooltip="effort">प्रयत्नम्</span>
+          <span class="tooltip-container hover-text " data-tooltip="made">कृतवान्</span>
+          <span class="tooltip-container hover-text " data-tooltip="but">किन्तु</span>
+          <span class="tooltip-container hover-text " data-tooltip="freed, liberated">मुक्तः</span>
+          <span class="tooltip-container hover-text " data-tooltip="not">न</span>
+          <span class="tooltip-container hover-text " data-tooltip="became">अभवत्</span>
+          <span class="tooltip-container hover-text " data-tooltip="He made great efforts, but he was not able to free himself.">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="He">सः</span>
+          <span class="tooltip-container hover-text " data-tooltip="loudly">उच्चैः</span>
+          <span class="tooltip-container hover-text " data-tooltip="roared, cried out">अनर्दत्</span>
+          <span class="tooltip-container hover-text " data-tooltip="He roared loudly">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="His">तस्य</span>
+          <span class="tooltip-container hover-text " data-tooltip="sound, roar">नादम्</span>
+          <span class="tooltip-container hover-text " data-tooltip="having heard">श्रुत्वा</span>
+          <span class="tooltip-container hover-text " data-tooltip="mouse">मूषकः</span>
+          <span class="tooltip-container hover-text " data-tooltip="there">तत्र</span>
+          <span class="tooltip-container hover-text " data-tooltip="came">आगच्छत्</span>
+          <span class="tooltip-container hover-text " data-tooltip="Hearing his roar, the mouse came there.">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="He">सः</span>
+          <span class="tooltip-container hover-text " data-tooltip="with his own teeth">स्वदन्तैः</span>
+          <span class="tooltip-container hover-text " data-tooltip="net">जालम्</span>
+          <span class="tooltip-container hover-text " data-tooltip="to cut">कर्तयितुम्</span>
+          <span class="tooltip-container hover-text " data-tooltip="began">आरब्धवान्</span>
+          <span class="tooltip-container hover-text " data-tooltip="He began to cut the net with his own teeth.">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="Quickly, soon">शीघ्रमेव</span>
+          <span class="tooltip-container hover-text " data-tooltip="net">जालम्</span>
+          <span class="tooltip-container hover-text " data-tooltip="cut">छिन्नम्</span>
+          <span class="tooltip-container hover-text " data-tooltip="became">अभवत्</span>
+          <span class="tooltip-container hover-text " data-tooltip="lion">सिंहः</span>
+          <span class="tooltip-container hover-text " data-tooltip="and">च</span>
+          <span class="tooltip-container hover-text " data-tooltip="freed">मुक्तः</span>
+          <span class="tooltip-container hover-text " data-tooltip="became">अभवत्</span>
+          <span class="tooltip-container hover-text " data-tooltip="Soon, the net was cut, and the lion was freed.">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="Lion">सिंहः</span>
+          <span class="tooltip-container hover-text " data-tooltip="said">अवदत्</span>
+
+          <span class="quote">
+            <span class="tooltip-container hover-text " data-tooltip="Friend">मित्र</span>
+            <span class="tooltip-container hover-text " data-tooltip="you">त्वम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="my">मम</span>
+            <span class="tooltip-container hover-text " data-tooltip="life, lives">प्राणान्</span>
+            <span class="tooltip-container hover-text " data-tooltip="protected">अरक्षः &nbsp; । &nbsp;</span>
+            <span class="tooltip-container hover-text " data-tooltip="I">अहम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="formerly, before">पूर्वम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="you">त्वाम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="small, inferior">न्यूनम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="considered">मन्ये स्म &nbsp; । &nbsp;</span>
+            <span class="tooltip-container hover-text " data-tooltip="Now">अधुना</span>
+            <span class="tooltip-container hover-text " data-tooltip="know">जानामि</span>
+            <span class="tooltip-container hover-text " data-tooltip="that">यत्</span>
+            <span class="tooltip-container hover-text " data-tooltip="small">लघुः</span>
+            <span class="tooltip-container hover-text " data-tooltip="even">अपि</span>
+            <span class="tooltip-container hover-text " data-tooltip="great">महान्</span>
+            <span class="tooltip-container hover-text " data-tooltip="help, favor">उपकारम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="to do">कर्तुम्</span>
+            <span class="tooltip-container hover-text " data-tooltip="is able">शक्नोति</span>
+          </span>
+          <span class="tooltip-container hover-text " data-tooltip="The lion said, “Friend! You saved my life.
+            Earlier I considered you insignificant. Now I know that even the small can do great help.”">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="Mouse">मूषकः</span>
+          <span class="tooltip-container hover-text " data-tooltip="happy, pleased">प्रसन्नः</span>
+          <span class="tooltip-container hover-text " data-tooltip="became">अभवत्</span>
+          <span class="tooltip-container hover-text " data-tooltip="The mouse became happy.">&nbsp; । &nbsp;</span>
+
+          <span class="tooltip-container hover-text " data-tooltip="they two">तौ</span>
+          <span class="tooltip-container hover-text " data-tooltip="friends">मित्रे</span>
+          <span class="tooltip-container hover-text " data-tooltip="became">अभवताम्</span>
+          <span class="tooltip-container hover-text " data-tooltip="The two of them became friends">&nbsp; । &nbsp;</span>
+
+          <br /> <br />
+        </div>
+        <!-- class="devanagari" -->
+      </div>
+      <!-- id="tooltips-container" -->
+    </main>
+    <!-- end Main -->
+
+    <div id="tooltip"></div>
+
+    <!-- footer -->
+    <footer>
+      <!--
+      <ul class="footer-links">
+      <li><a href="">Terms</a></li>
+      </ul>
+      -->
+      <div class="copyright">सत्यमेव जयते</div>
+    </footer>
+    <!-- end Footer -->
+
+    <script src="/scripts/tooltip.js"></script>
+    <script src="/scripts/settings.js"></script>
+    <script src="/scripts/playaudio.js"></script>
+  </body>
+</html>
