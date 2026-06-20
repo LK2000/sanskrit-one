@@ -114,7 +114,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #698FB0;
+  background-color: #ee396d; /* #698FB0; */
   padding: 20px 20px 10px 10px; /* 20px 20px 10px 10px; */
   position: sticky;
   top: 0;
@@ -428,6 +428,13 @@ h3 {
 
 .a-no-deco:hover {
   color: #ff7e5f; /* Custom hover color */
+}
+
+.blue-text {
+  display: inline-block;
+  color: #156bcd;
+  line-height: 1.5;
+  margin-bottom: 10px;
 }
 
 .sanskrit {

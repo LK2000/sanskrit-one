@@ -91,12 +91,12 @@ const quizData = [
 /*
 
     { en: "TODO", sans: "भवता" },
-    { en: "increases, expands, grows", sans: "वर्धयति" },
-    { en: "", sans: "" },
-    { en: "", sans: "" },
-    { en: "", sans: "" },
-    { en: "", sans: "" },
-    { en: "", sans: "" },
+    { en: "Increases, expands, grows", sans: "वर्धयति" },
+    { en: "Leave, vacation, holiday", sans: "अवकाशः (M)" },
+    { en: "Further more, besides this", sans: "इतोऽपि" },
+    { en: "Count", sans: "गणय" },
+    { en: "Evidence", sans: "TODO" },
+    { en: "Rule", sans: "नियमः (M)" },
     { en: "", sans: "" },
     { en: "", sans: "" },
 
