@@ -148,107 +148,107 @@ const quizData = [
     },
     /* 3.2 */
     {
-        "sans": "(बाल) सह शिक्षकः गच्छति।",
-        "en": "The teacher goes with the two boys.",
+        "sans": "(बाल) सह शिक्षकः गच्छति",
+        "en": "The teacher goes with the two boys",
         "opts": ["बालाभ्याम्‌", "बालौ", "बालानाम्", "बालाभिः", "बालयोः"]
     },
     {
-        "sans": "(राम) सह सीता गच्छति।",
-        "en": "Sita goes with Rama.",
+        "sans": "(राम) सह सीता गच्छति",
+        "en": "Sita goes with Rama",
         "opts": ["रामेण", "रामौ", "रामस्य", "रामात्", "रामान्"]
     },
     {
-        "sans": "(कृष्णा) सह बालकः क्रीडति।",
-        "en": "The boy plays with the two Krishnas.",
+        "sans": "(कृष्णा) सह बालकः क्रीडति",
+        "en": "The boy plays with the two Krishnas",
         "opts": ["कृष्णाभ्याम्", "कृष्णौ", "कृष्णस्य", "कृष्णानाम्", "कृष्णान्"]
     },
     {
-        "sans": "(छात्र) सह गुरुर्गच्छति।",
-        "en": "The teacher goes with the two students.",
+        "sans": "(छात्र) सह गुरुः गच्छति",
+        "en": "The teacher goes with the two students",
         "opts": ["छात्राभ्याम्", "छात्रौ", "छात्रस्य", "छात्रानाम्", "छात्रान्"]
     },
     /* 3.3 */
     {
-        "sans": "(बाल) सह शिक्षकः गच्छति।",
-        "en": "The teacher goes with the boys.",
+        "sans": "(बाल) सह शिक्षकः गच्छति",
+        "en": "The teacher goes with the boys",
         "opts": ["बालैः", "बालानाम्", "बालान्", "बालेभ्यः", "बालेषु"]
     },
     {
-        "sans": "(राम) सह सैनिकः आगच्छति।",
-        "en": "The soldier comes with the Ramas.",
+        "sans": "(राम) सह सैनिकः आगच्छति",
+        "en": "The soldier comes with the Ramas",
         "opts": ["रामैः", "रामानाम्", "रामान्", "रामेभ्यः", "रामेषु"]
     },
     {
-        "sans": "(कृष्ण) सह बालकः क्रीडति।",
-        "en": "The boy plays with the Krishnas.",
+        "sans": "(कृष्ण) सह बालकः क्रीडति",
+        "en": "The boy plays with the Krishnas",
         "opts": ["कृष्णैः", "कृष्णानाम्", "कृष्णान्", "कृष्णेभ्यः", "कृष्णेषु"]
     },
     {
-        "sans": "(छात्र) सह गुरुः गच्छति।",
-        "en": "The teacher goes with the students.",
+        "sans": "(छात्र) सह गुरुः गच्छति",
+        "en": "The teacher goes with the students",
         "opts": ["छात्रैः", "छात्रानाम्", "छात्रान्", "छात्रेभ्यः", "छात्रेषु"]
     },
     /* 4.1 */
     {
-        "sans": "(बालक) फलम् ददाति।",
-        "en": "He gives a fruit to the boy.",
+        "sans": "सः (बालक) फलम् ददाति",
+        "en": "He gives a fruit to the boy",
         "opts": ["बालकाय", "बालकात्", "बालकेन", "बालकस्य", "बालकान्"]
     },
     {
-        "sans": "(राम) पुस्तकं ददाति।",
-        "en": "He gives a book to Rama.",
+        "sans": "सः (राम) पुस्तकं ददाति",
+        "en": "He gives a book to Rama",
         "opts": ["रामाय", "रामेण", "रामस्य", "रामात्", "रामौ"]
     },
     {
-        "sans": "(कृषक) धनं ददाति।",
-        "en": "He gives money to the farmer.",
+        "sans": "सः (कृषक) धनं ददाति",
+        "en": "He gives money to the farmer",
         "opts": ["कृषकाय", "कृषकात्", "कृषकेन", "कृषकस्य", "कृषकान्"]
     },
     {
-        "sans": "(छात्र) गुरुः उपदेशं ददाति।",
-        "en": "The teacher gives advice to the student.",
+        "sans": "(छात्र) गुरुः उपदेशं ददाति",
+        "en": "The teacher gives advice to the student",
         "opts": ["छात्राय", "छात्रेण", "छात्रस्य", "छात्रात्", "छात्रौ"]
     },
     /* 4.2 */
     {
-        "sans": "(बाल) फलानि ददाति।",
-        "en": "He gives fruits to the two boys.",
+        "sans": "सः (बाल) फलानि ददाति",
+        "en": "He gives fruits to the two boys",
         "opts": ["बालाभ्याम्", "बालौ", "बालयोः", "बालात्", "बालैः"]
     },
     {
-        "sans": "(राम) पुस्तकं ददाति।",
-        "en": "He gives a book to the two Ramas.",
+        "sans": "सः (राम) पुस्तकं ददाति",
+        "en": "He gives a book to the two Ramas",
         "opts": ["रामाभ्याम्", "रामयोः", "रामानाम्", "रामैः", "रामान्"]
     },
     {
-        "sans": "(कृषक) धनं ददाति।",
-        "en": "He gives money to the two farmers.",
+        "sans": "सः (कृषक) धनं ददाति",
+        "en": "He gives money to the two farmers",
         "opts": ["कृषकाभ्यां", "कृषकयोः", "कृषकानाम्", "कृषकैः", "कृषकान्"]
     },
     {
-        "sans": "(छात्र) गुरुः उपदेशं ददाति।",
-        "en": "The teacher gives advice to the two students.",
+        "sans": "(छात्र) गुरुः उपदेशं ददाति",
+        "en": "The teacher gives advice to the two students",
         "opts": ["छात्राभ्यां", "छात्रयोः", "छात्रानाम्", "छात्रैः", "छात्रान्"]
     },
     /* 4.3 */
     {
-        "sans": "(बाल) फलानि ददाति।",
-        "en": "He gives fruits to the boys.",
+        "sans": "सः (बाल) फलानि ददाति",
+        "en": "He gives fruits to the boys",
         "opts": ["बालकेभ्यः", "बालकानाम्", "बालकान्", "बालकैः", "बालकेषु"]
     },
     {
-        "sans": "(राम) पुस्तकानि ददाति।",
-        "en": "He gives books to the Ramas.",
+        "sans": "सः (राम) पुस्तकानि ददाति",
+        "en": "He gives books to the Ramas",
         "opts": ["रामेभ्यः", "रामानाम्", "रामान्", "रामैः", "रामेषु"]
     },
     {
-        "sans": "(कृषक) धनं ददाति।",
-        "en": "He gives money to the farmers.",
+        "sans": "सः (कृषक) धनं ददाति",
+        "en": "He gives money to the farmers",
         "opts": ["कृषकेभ्यः", "कृषकानाम्", "कृषकान्", "कृषकैः", "कृषकेषु"]
     },
     {
-        "sans": "(छात्र) गुरुः उपदेशं ददाति।",
-        "en": "The teacher gives advice to the students.",
+        "sans": "(छात्र) गुरुः उपदेशं ददाति",
+        "en": "The teacher gives advice to the students",
         "opts": ["छात्रेभ्यः", "छात्रानाम्", "छात्रान्", "छात्रैः", "छात्रेषु"]
     },
     /* 5.1 */
@@ -258,29 +258,29 @@ const quizData = [
         "opts": ["बालकात्", "बालकस्य", "बालकेन", "बालकाय", "बालाभ्याम्"]
     },
     {
-        "sans": "(राम) पत्रं आगच्छति।",
-        "en": "A letter comes from Rama.",
+        "sans": "(राम) पत्रं आगच्छति",
+        "en": "A letter comes from Rama",
         "opts": ["रामात्", "रामस्य", "रामाय", "रामेण", "रामेभ्यः"]
     },
     {
-        "sans": "(कृषक) धनं लभते।",
-        "en": "He gets money from the farmer.",
+        "sans": "(कृषक) धनं लभते",
+        "en": "He gets money from the farmer",
         "opts": ["कृषकात्", "कृषकस्य", "कृषकाय", "कृषकेन", "कृषकेभ्यः"]
     },
     {
-        "sans": "(छात्र) प्रश्नः उद्भवति।",
-        "en": "A question arises from the student.",
+        "sans": "(छात्र) प्रश्नः उद्भवति",
+        "en": "A question arises from the student",
         "opts": ["छात्रात्", "छात्रस्य", "छात्राय", "छात्रेण", "छात्रेभ्यः"]
     },
     /* 5.2 */
     {
-        "sans": "भिक्षुकः (बाल) धनं प्राप्नोति।",
+        "sans": "भिक्षुकः (बाल) धनं प्राप्नोति",
         "en": "The beggar gets money from the two boys",
         "opts": ["बालाभ्यां", "बालयोः", "बालकेभ्यः", "बालानाम्", "बालान्"]
     },
     {
-        "sans": "(राम) पत्रं आगच्छति।",
-        "en": "A letter comes from the two Ramas.",
+        "sans": "(राम) पत्रं आगच्छति",
+        "en": "A letter comes from the two Ramas",
         "opts": ["रामाभ्यां", "रामयोः", "रामेभ्यः", "रामानाम्", "रामान्"]
     },
     {
@@ -289,8 +289,8 @@ const quizData = [
         "opts": ["कृषकाभ्यां", "कृषकयोः", "कृषकेभ्यः", "कृषकानाम्", "कृषकान्"]
     },
     {
-        "sans": "(छात्र) प्रश्नः उद्भवति।",
-        "en": "A question arises from the two students.",
+        "sans": "(छात्र) प्रश्नः उद्भवति",
+        "en": "A question arises from the two students",
         "opts": ["छात्राभ्यां", "छात्रयोः", "छात्रेभ्यः", "छात्रानाम्", "छात्रान्"]
     },
     /* 5.3 */
@@ -300,81 +300,81 @@ const quizData = [
         "opts": ["बालकेभ्यः", "बालकात्", "बालाभ्यां", "बालानाम्", "बालान्"]
     },
     {
-        "sans": "(राम) पत्रं आगच्छति।",
-        "en": "A letter comes from the Ramas.",
+        "sans": "(राम) पत्रं आगच्छति",
+        "en": "A letter comes from the Ramas",
         "opts": ["रामेभ्यः", "रामात्", "रामाभ्यां", "रामानाम्", "रामान्"]
     },
     {
-        "sans": "(कृषक) धनं लभते।",
-        "en": "He gets money from the farmers.",
+        "sans": "(कृषक) धनं लभते",
+        "en": "He gets money from the farmers",
         "opts": ["कृषकेभ्यः", "कृषकात्", "कृषकाभ्यां", "कृषकानाम्", "कृषकान्"]
     },
     {
-        "sans": "(छात्र) प्रश्नाः उद्भवन्ति।",
-        "en": "Questions arise from the students.",
+        "sans": "(छात्र) प्रश्नाः उद्भवन्ति",
+        "en": "Questions arise from the students",
         "opts": ["छात्रेभ्यः", "छात्रात्", "छात्राभ्यां", "छात्रानाम्", "छात्रान्"]
     },
     /* 6.1 */
     {
-        "sans": "(बालक) पुस्तकम् अस्ति।",
-        "en": "It is the boy’s book.",
+        "sans": "एतत् (बालक) पुस्तकम् अस्ति",
+        "en": "It is the boy’s book",
         "opts": ["बालकस्य", "बालकात्", "बालकेन", "बालकाय", "बालकान्"]
     },
     {
-        "sans": "(राम) गृहं सुन्दरम् अस्ति।",
-        "en": "Rama’s house is beautiful.",
+        "sans": "(राम) गृहं सुन्दरम् अस्ति",
+        "en": "Rama’s house is beautiful",
         "opts": ["रामस्य", "रामाय", "रामात्", "रामेण", "रामानाम्"]
     },
     {
-        "sans": "(कृषक) क्षेत्रं विशालम् अस्ति।",
-        "en": "The farmer’s field is vast.",
+        "sans": "(कृषक) क्षेत्रं विशालम् अस्ति",
+        "en": "The farmer’s field is vast",
         "opts": ["कृषकस्य", "कृषकाय", "कृषकात्", "कृषकेन", "कृषकानाम्"]
     },
     {
-        "sans": "(छात्र) उत्तरं समीचीनम् अस्ति।",
-        "en": "The student’s answer is correct.",
+        "sans": "(छात्र) उत्तरं समीचीनम् अस्ति",
+        "en": "The student’s answer is correct",
         "opts": ["छात्रस्य", "छात्राय", "छात्रात्", "छात्रेण", "छात्रानाम्"]
     },
     /* 6.2 */
     {
-        "sans": "(बालक) पुस्तकं अस्ति।",
-        "en": "It is the two boys’ book.",
+        "sans": "एतत् (बालक) पुस्तकं अस्ति",
+        "en": "It is the two boys’ book",
         "opts": ["बालकयोः", "बालकस्य", "बालकेन", "बालाभ्यां", "बालकेभ्यः"]
     },
     {
-        "sans": "(राम) गृहं सुन्दरम् अस्ति।",
-        "en": "The two Ramas’ house is beautiful.",
+        "sans": "(राम) गृहं सुन्दरम् अस्ति",
+        "en": "The two Ramas’ house is beautiful",
         "opts": ["रामयोः", "रामस्य", "रामाभ्यां", "रामेण", "रामेभ्यः"]
     },
     {
-        "sans": "(कृषक) क्षेत्रं विशालम् अस्ति।",
-        "en": "The two farmers’ field is vast.",
+        "sans": "(कृषक) क्षेत्रं विशालम् अस्ति",
+        "en": "The two farmers’ field is vast",
         "opts": ["कृषकयोः", "कृषकस्य", "कृषकाभ्यां", "कृषकेन", "कृषकेभ्यः"]
     },
     {
-        "sans": "(छात्र) उत्तरं समीचीनम् अस्ति।",
-        "en": "The two students’ answer is correct.",
+        "sans": "(छात्र) उत्तरं समीचीनम् अस्ति",
+        "en": "The two students’ answer is correct",
         "opts": ["छात्रयोः", "छात्रस्य", "छात्राभ्यां", "छात्रेण", "छात्रेभ्यः"]
     },
     /* 6.3 */
     {
-        "sans": "(बालक) पुस्तकानि सन्ति।",
-        "en": "These are the boys’ books.",
+        "sans": "(बालक) पुस्तकानि सन्ति",
+        "en": "These are the boys’ books",
         "opts": ["बालकानाम्", "बालकान्", "बालकैः", "बालकेभ्यः", "बालकस्य"]
     },
     {
-        "sans": "(राम) गृहाणि सुन्दराणि सन्ति।",
-        "en": "The Ramas’ houses are beautiful.",
+        "sans": "(राम) गृहाणि सुन्दराणि सन्ति",
+        "en": "The Ramas’ houses are beautiful",
         "opts": ["रामाणाम्", "रामान्", "रामेभ्यः", "रामयोः", "रामात्"]
     },
     {
-        "sans": "(कृषक) क्षेत्राणि विशालानि सन्ति।",
-        "en": "The farmers’ fields are vast.",
+        "sans": "(कृषक) क्षेत्राणि विशालानि सन्ति",
+        "en": "The farmers’ fields are vast",
         "opts": ["कृषकाणाम्", "कृषकान्", "कृषकेभ्यः", "कृषकयोः", "कृषकात्"]
     },
     {
-        "sans": "(छात्र) उत्तराणि समीचीनानि सन्ति।",
-        "en": "The students’ answers are correct.",
+        "sans": "(छात्र) उत्तराणि समीचीनानि सन्ति",
+        "en": "The students’ answers are correct",
         "opts": ["छात्राणाम्", "छात्रान्", "छात्रेभ्यः", "छात्रयोः", "छात्रात्"]
     },
     /* 7.1 */
@@ -385,17 +385,17 @@ const quizData = [
     },
     {
         "sans": "भक्तः (राम) श्रद्धां करोति",
-        "en": "The devotee places faith in Rama.",
+        "en": "The devotee places faith in Rama",
         "opts": ["रामे", "रामस्य", "रामात्", "रामाय", "रामानाम्"]
     },
     {
         "sans": "आशा (कृषक) अस्ति",
-        "en": "Hope is in the farmer.",
+        "en": "Hope is in the farmer",
         "opts": ["कृषके", "कृषकस्य", "कृषकात्", "कृषकाय", "कृषकानाम्"]
     },
     {
         "sans": "उत्साहः (छात्र) वर्तते",
-        "en": "Enthusiasm exists in the student.",
+        "en": "Enthusiasm exists in the student",
         "opts": ["छात्रे", "छात्रस्य", "छात्रात्", "छात्राय", "छात्रानाम्"]
     },
     /* 7.2 */
@@ -415,7 +415,7 @@ const quizData = [
         "opts": ["कृषकयोः", "कृषकस्य", "कृषकाभ्यां", "कृषकेभ्यः", "कृषकानाम्"]
     },
     {
-        "sans": "(छात्र) गृहे मित्राणि आगच्छन्ति।",
+        "sans": "(छात्र) गृहे मित्राणि आगच्छन्ति",
         "en": "Friends come to the house of the two students",
         "opts": ["छात्रयोः", "छात्रस्य", "छात्राभ्यां", "छात्रेभ्यः", "छात्रानाम्"]
     },
@@ -427,80 +427,80 @@ const quizData = [
     },
     {
         "sans": "(राम) भक्तिः अस्ति",
-        "en": "Devotion is in the Ramas.",
+        "en": "Devotion is in the Ramas",
         "opts": ["रामेषु", "रामानाम्", "रामान्", "रामैः", "रामेभ्यः"]
     },
     {
         "sans": "(कृषक) ज्ञानं वर्तते",
-        "en": "Knowledge exists in the farmers.",
+        "en": "Knowledge exists in the farmers",
         "opts": ["कृषकेषु", "कृषकानाम्", "कृषकान्", "कृषकैः", "कृषकेभ्यः"]
     },
     {
-        "sans": "(छात्र) स्वगुरौ प्रेम अस्ति",
-        "en": "There is love in the students for their teacher.",
+        "sans": "(छात्र) स्वगुरौ प्रेमम् अस्ति",
+        "en": "There is love in the students for their teacher",
         "opts": ["छात्रेषु", "छात्रानाम्", "छात्रान्", "छात्रैः", "छात्रेभ्यः"]
     },
     /* 8.1 */
     {
-        "sans": "हे (बालकः), आगच्छ।",
-        "en": "O boy, come.",
+        "sans": "हे (बालक), आगच्छ",
+        "en": "O boy, come",
         "opts": ["बालक", "बालकः", "बालकस्य", "बालकात्", "बालकाय"]
     },
     {
-        "sans": "हे (रामः), पठ।",
-        "en": "O Rama, read.",
+        "sans": "हे (राम), पठ",
+        "en": "O Rama, read",
         "opts": ["राम", "रामः", "रामस्य", "रामेण", "रामात्"]
     },
     {
-        "sans": "हे (कृषकः), कार्यं कुरु।",
-        "en": "O farmer, do the work.",
+        "sans": "हे (कृषक), कार्यं कुरु",
+        "en": "O farmer, do the work",
         "opts": ["कृषक", "कृषकः", "कृषकस्य", "कृषकाय", "कृषकात्"]
     },
     {
-        "sans": "हे (छात्रः), उत्तरं वद।",
-        "en": "O student, say the answer.",
+        "sans": "हे (छात्र), उत्तरं वद",
+        "en": "O student, say the answer",
         "opts": ["छात्र", "छात्रः", "छात्रस्य", "छात्रेण", "छात्रात्"]
     },
     /* 8.2 */
     {
-        "sans": "हे (बालक), आगच्छतम्।",
-        "en": "O two boys, come.",
+        "sans": "हे (बालक), आगच्छतम्",
+        "en": "O two boys, come",
         "opts": ["बालकौ", "बालकाभ्याम्", "बालकयोः", "बालकानाम्", "बालकेभ्यः"]
     },
     {
-        "sans": "हे (राम), पठतम्।",
-        "en": "O two Ramas, read.",
+        "sans": "हे (राम), पठतम्",
+        "en": "O two Ramas, read",
         "opts": ["रामौ", "रामाभ्याम्", "रामयोः", "रामानाम्", "रामेभ्यः"]
     },
     {
-        "sans": "हे (कृषक), कार्यं कुरुतम्।",
-        "en": "O two farmers, do the work.",
+        "sans": "हे (कृषक), कार्यं कुरुतम्",
+        "en": "O two farmers, do the work",
         "opts": ["कृषकौ", "कृषकाभ्याम्", "कृषकयोः", "कृषकानाम्", "कृषकेभ्यः"]
     },
     {
-        "sans": "हे (छात्र), उत्तरं वदतम्।",
-        "en": "O two students, say the answer.",
+        "sans": "हे (छात्र), उत्तरं वदतम्",
+        "en": "O two students, say the answer",
         "opts": ["छात्रौ", "छात्राभ्याम्", "छात्रयोः", "छात्रानाम्", "छात्रेभ्यः"]
     },
     /* 8.3 */
     {
-        "sans": "हे (बालक), आगच्छत।",
-        "en": "O boys, come.",
+        "sans": "हे (बालक), आगच्छत",
+        "en": "O boys, come",
         "opts": ["बालकाः", "बालकानाम्", "बालकान्", "बालकैः", "बालकेभ्यः"]
     },
     {
-        "sans": "हे (राम), पठत।",
-        "en": "O Ramas, read.",
+        "sans": "हे (राम), पठत",
+        "en": "O Ramas, read",
         "opts": ["रामाः", "रामानाम्", "रामान्", "रामैः", "रामेभ्यः"]
     },
     {
-        "sans": "हे (कृषक), कार्यं कुरुत।",
-        "en": "O farmers, do the work.",
+        "sans": "हे (कृषक), कार्यं कुरुत",
+        "en": "O farmers, do the work",
         "opts": ["कृषकाः", "कृषकानाम्", "कृषकान्", "कृषकैः", "कृषकेभ्यः"]
     },
     {
-        "sans": "हे (छात्र), उत्तरं वदत।",
-        "en": "O students, say the answer.",
+        "sans": "हे (छात्र), उत्तरं वदत",
+        "en": "O students, say the answer",
         "opts": ["छात्राः", "छात्रानाम्", "छात्रान्", "छात्रैः", "छात्रेभ्यः"]
     }
 ];

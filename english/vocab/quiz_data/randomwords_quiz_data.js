@@ -86,32 +86,14 @@ const quizData = [
     { en: "feeling guilty, remorse", sans: "पश्चात्तापः" },
     { en: "innocent (like a child)", sans: "मुग्ध" },
     { en: "innocent (of a crime)", sans: "निर्दोषी" },
-];
-
-/*
-
-    { en: "TODO", sans: "भवता" },
+    { en: "By you", sans: "भवता" },
     { en: "Increases, expands, grows", sans: "वर्धयति" },
-    { en: "Leave, vacation, holiday", sans: "अवकाशः (M)" },
-    { en: "Further more, besides this", sans: "इतोऽपि" },
+    { en: "Holiday, vacation, opportunity", sans: "अवकाशः (M)" },
+    { en: "Further more, besides this, more", sans: "इतोऽपि" },
     { en: "Count", sans: "गणय" },
-    { en: "Evidence", sans: "TODO" },
+    { en: "Evidence", sans: "प्रमाणम्" },
     { en: "Rule", sans: "नियमः (M)" },
-    { en: "", sans: "" },
-    { en: "", sans: "" },
-
-*/
-
-/*
-guilty-innocent
-
-tumun: kartum, khaditum
-tva pratyaya patitva, tyaktva, khaditva
-
-
-asmi, smaha present
-aasit, aasan past tense
-asti santi
-asmi, asam
-practical application
-*/
+    { en: "Hides, conceals", sans: "गोपयति (Verb)" },
+    { en: "Finds, gets", sans: "विन्दति (Verb)" },
+    { en: "He/she pressed", sans: "नोदयति (Verb)" },
+];
