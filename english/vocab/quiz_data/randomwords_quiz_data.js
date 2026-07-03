@@ -103,3 +103,23 @@ const quizData = [
     { en: "Silence", sans: "निःशब्दम् (N)" },
     { en: "Silent", sans: "मौनम् (N)" },
 ];
+
+/*
+    { en: "For how long, how much time", sans: कियत्कालं" },
+    { en: "Hat", sans: "शीर्षकम् (N)" },
+    { en: "Free", sans: "मुक्त" },
+    { en: "Balance, left over, remainder", sans: "शेषम् (N), अवशिष्टम्" },
+    { en: "", sans: "" },
+    { en: "", sans: "" },
+     pravasam
+     strong - weak
+     North, South, East, West
+     shirt = yutakam
+     pant = urukam
+     kwatitam
+     serve = pariveshanam
+     improvement = sudharanam
+     itopi, tatopi
+
+
+*/
