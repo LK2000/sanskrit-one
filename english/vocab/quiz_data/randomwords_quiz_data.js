@@ -17,7 +17,6 @@ const quizData = [
     { en: "unmarried", sans: "अविवाहित" },
     { en: "buttermilk", sans: "तक्रम्" },
     { en: "prepared, completed, ready", sans: "सिद्धः (Adj)" },
-    { en: "each other, mutually", sans: "परस्परम् (Indecl TODO)" },
     { en: "eyesight, vision, attitude", sans: "दृष्टिः (F)" },
     { en: "creation, nature", sans: "सृष्टिः (F)" },
     { en: "since, beginning with", sans: "प्रभृति (Indecl)" },
@@ -105,6 +104,8 @@ const quizData = [
 ];
 
 /*
+    { en: "each other, mutually", sans: "परस्परम् (Indecl TODO)" },
+
     { en: "For how long, how much time", sans: कियत्कालं" },
     { en: "Hat", sans: "शीर्षकम् (N)" },
     { en: "Free", sans: "मुक्त" },
