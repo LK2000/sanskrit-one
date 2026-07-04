@@ -74,7 +74,7 @@ const quizData = [
     { en: "weight", sans: "भारः (M)" },
     { en: "light weighted", sans: "लगुभारः (Adj)" },
     { en: "gain weight", sans: "भारं वर्धय" },
-    { en: "loose weight", sans: "भारं घटय" },
+    { en: "lose weight", sans: "भारं घटय" },
     { en: "informed, pointed out", sans: "सूचित (Adj)" },
     { en: "to another (person)", sans: "अन्यस्मै" },
     { en: "building", sans: "भवनम् (N)" },
