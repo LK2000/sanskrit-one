@@ -1,7 +1,7 @@
 const quizData = [
-    { en: "proximity", sans: "संहिता" },
-    { en: "sequence, order", sans: "क्रम" },
-    { en: "change, modification", sans: "विकार" },
+    { en: "Proximity", sans: "संहिता" },
+    { en: "Sequence, order", sans: "क्रम" },
+    { en: "Change, modification", sans: "विकार" },
     { en: "cut", sans: "छेद" },
     { en: "both", sans: "उभय" },
     { en: "wolf", sans: "वृक" },
@@ -101,15 +101,32 @@ const quizData = [
     { en: "Dustbin", sans: "अवकरिका (F)" },
     { en: "Silence", sans: "निःशब्दम् (N)" },
     { en: "Silent", sans: "मौनम् (N)" },
+    { en: "Each other, mutually", sans: "परस्परम् (Indecl)" },
+    { en: "For how long, how much time", sans: "कियत्कालम् (Indecl)" },
+    { en: "Hat", sans: "शिरस्त्रम् (N)" },
+    { en: "Free", sans: "मुक्त (Adj)" },
+    { en: "Balance, left over, remainder", sans: "शेषम् (Adj), अवशिष्टम् (Adj)" },
+    { en: "Unconquered, invincible", sans: "अपराजित (Adj)" },
+    { en: "Conquered, vanquished", sans: "पराजित (Adj)" },
+    { en: "Longing, separation", sans: "विरह (M)" },
+    { en: "A few, some", sans: "कतिपय (Adj)" },
+    { en: "Vegetable", sans: "शाकाम्‌ (N)" },
+    { en: "Solution (to a problem)", sans: "समाधानम् (N)" },
+    { en: "Soldier", sans: "योधः (M), सैनिकः (M)" },
+    { en: "Brave", sans: "शूरः (M) धीर (Adj)" },
 ];
 
 /*
-    { en: "each other, mutually", sans: "परस्परम् (Indecl TODO)" },
-
-    { en: "For how long, how much time", sans: कियत्कालं" },
-    { en: "Hat", sans: "शीर्षकम् (N)" },
-    { en: "Free", sans: "मुक्त" },
-    { en: "Balance, left over, remainder", sans: "शेषम् (N), अवशिष्टम्" },
+    { en: "Team", sans: "" },
+    { en: "Prefer", sans: "" },
+    { en: "Preference", sans: "" },
+    { en: "Unripe Fruit", sans: "शलाटुः (M)" },
+    { en: "Repeat", sans: "" },
+    { en: "Same", sans: "समान (Adj)" },
+    { en: "", sans: "" },
+    { en: "", sans: "" },
+    { en: "", sans: "" },
+    { en: "", sans: "" },
     { en: "", sans: "" },
     { en: "", sans: "" },
      pravasam
@@ -122,5 +139,6 @@ const quizData = [
      improvement = sudharanam
      itopi, tatopi
 
-
+     add अपराजितः, पराजितः to antonyms
+     add hat to clothing category
 */

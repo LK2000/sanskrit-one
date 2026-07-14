@@ -3,357 +3,819 @@
 
   <url>
     <loc>https://sanskrit.one/index.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/template.html</loc>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/picture_vocab/bodyparts_human.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/picture_vocab/transport.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/picture_vocab/animals_water.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/picture_vocab/animals_air.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/picture_vocab/around_the_kitchen.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/picture_vocab/animals_land.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/picture_vocab/bodyparts_animal.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/picture_vocab/fruits.html</loc>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/contact_us.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/grammar.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/vocab.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/chanda_stories.html</loc>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/picture_vocab.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/my_difficult_words_quiz.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
+    <loc>https://sanskrit.one/english/phrases.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/pancha_stories.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffix_list.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/vibhakti_intro.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/vibhakti_list.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/vachana.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/genders.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/sandhi/msturas.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/sandhi/sandhi.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/read.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/play.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/tremble.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/hear.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/think.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/cry.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/obtain.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/see.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/like.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/cook.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/know.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/go.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/shatru.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/stand.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/tosee.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/buy.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/sleep.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/template.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/serve.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/give.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/salute.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/todo.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/do.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/suffixes/request.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/vibhakti/aakarantha_stri.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/vibhakti/numbers_vibhakti.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/vibhakti/akarantha_pul.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/vibhakti/numbers.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/vibhakti/eekarantha_stri.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/vibhakti/akarantha_napum.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/vibhakti/misc.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/vibhakti/template.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/vibhakti/quiz_html/template_quiz.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/vibhakti/quiz_html/akarantha_pul_quiz.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/pronouns/pronouns_quiz1.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/pronouns/pronouns.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/pronouns/pronouns_quiz2.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/grammar/word_forms/word_form.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/vocab/antonyms.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/vocab/template.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/vocab/randomwords.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
     <loc>https://sanskrit.one/english/scriptures/scriptures.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_11.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_07.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_06.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_10.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_17.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_01.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_16.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_03.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_15.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_14.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_02.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_18.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_05.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_13.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/gita_chapters.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_09.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_08.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_12.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/chapter_04.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/scriptures/gita/quiz_html/chapter_01.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/arrows_target.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/quiz_template.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/peoples_representative.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/rise_of_wisdom.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/ambarishaha.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/story_template.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/oratory_skills.html</loc>
-    <lastmod>2026-03-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://sanskrit.one/english/stories/chandamama_short/stories_template.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/secret_of_wealth.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/quiz_html/arrows_target_quiz.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/quiz_html/ambarishaha_quiz.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/quiz_html/secret_of_wealth_quiz.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/quiz_html/template_quiz.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/quiz_html/oratory_skills_quiz.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/quiz_html/rise_of_wisdom_quiz.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://sanskrit.one/english/stories/chandamama_short/quiz_html/peoples_rep_quiz.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/stories/short_stories/cried_wolf.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/stories/short_stories/tortoise.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/stories/short_stories/monkey_croc.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/stories/short_stories/lion_rabbit.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/stories/short_stories/template.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/stories/short_stories/crow.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/stories/short_stories/lion_mouse.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/stories/short_stories/quiz_html/cried_wolf_quiz.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/stories/short_stories/quiz_html/tortoise_quiz.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/stories/short_stories/quiz_html/template_quiz.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/stories/short_stories/quiz_html/lion_rabbit_quiz.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/stories/short_stories/quiz_html/crow_quiz.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/stories/short_stories/quiz_html/lion_mouse_quiz.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://sanskrit.one/english/stories/short_stories/quiz_html/monkey_croc_quiz.html</loc>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

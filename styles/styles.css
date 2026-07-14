@@ -1,6 +1,9 @@
 :root {
- --hdr-footer-color: #ee396d;
- --hdr-footer-hover-color: #091413
+ --hdr-footer-color: #ee396d; /* ee396d; */
+ --hdr-footer-hover-color: #091413;
+ --title-color: #4a90e2;
+ --subtitle-color: #ee396d; /*B331F1;*/
+ --navbar-height: 60px;
 }
 
 * {
@@ -124,7 +127,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  height: 60px;
+  height: var(--navbar-height);
   margin-top: auto; /* Push the navbar to the bottom */
   font-weight: 300;
 }
@@ -158,7 +161,6 @@ body {
   position: fixed;
   top: 60px;
   left: 0;
-  /*height: calc(100vh - 60px);*/
   height: calc(80vh - 60px);
   width: 250px; /*100%;*/
   background-color: white;
@@ -354,14 +356,14 @@ h3 {
 .hdr-small {
   display: block;
   /*font-size: 20px;*/
-  font-weight: bold;
-  color: #6b4aee;
+  /*font-weight: bold;*/
+  color: var(--subtitle-color);
 }
 
 @media (max-width: 768px) {
   .navbar {
     padding: 20px 20px 10px 10px; /* 10px 20px 10px 10px; */
-    height: 60px;
+    height: var(--navbar-height);
   }
 
   .nav-links {
@@ -753,7 +755,7 @@ h3 {
 
 #resolution-warning {
   position: fixed;
-  top: 60px;              /* below your logo */
+  top: var(--navbar-height);
   left: 0;
   width: 100%;
   background: #e8e8e8;
@@ -825,10 +827,11 @@ h3 {
 
 /* Header styling */
 .rounded-table thead th {
-    background-color: #4a90e2;
-    color: white;
+    background-color: #EAFAF1; /*#FEF9E7; /*#E5E8E8; /*E5E4E2; /*5EABD6; /*4a90e2;*/
+    color: #6495ED; /*A0522D; /*525252; /*white;*/
     padding: 10px;
     text-align: left;
+    font-weight: normal;
 }
 
 /* Body cells */
@@ -904,4 +907,24 @@ h3 {
 /* rounded images */
 .rounded-image {
   border-radius: 12px;
+}
+
+/*
+ * When we jump to an anchor, we want to offset the scroll position
+ * so that the content is not hidden behind the fixed navbar.
+ */
+.anchor {
+  scroll-margin-top: var(--navbar-height);
+}
+
+.hdr-color {
+  color: var(--hdr-footer-color);
+}
+
+.title-color {
+  color: var(--title-color);
+}
+
+.subtitle-color {
+  color: var(--subtitle-color);
 }
