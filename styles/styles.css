@@ -215,7 +215,7 @@ body {
 }
 
 a.sk-vert-menu-item {
-  color: var(--hdr-footer-hover-color);
+  color: var(--hdr-footer-color);
 }
 
 /* Hover effect for the links

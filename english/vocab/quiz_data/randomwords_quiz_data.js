@@ -114,21 +114,68 @@ const quizData = [
     { en: "Solution (to a problem)", sans: "समाधानम् (N)" },
     { en: "Soldier", sans: "योधः (M), सैनिकः (M)" },
     { en: "Brave", sans: "शूरः (M) धीर (Adj)" },
+    { en: "Opposite", sans: "विपरीत (Adj) विलोम (Adj)" },
+    { en: "Direction", sans: "दिशा (F), दिक् (F)" },
+    { en: "Unripe", sans: "अपक्व (Adj)" },
+    { en: "Very, greatly", sans: "अत्यन्तम् (Adj)" },
+    { en: "Exceedingly", sans: "अतिशयेन (Indecl)" },
+    { en: "Rainbow", sans: "इन्द्रधनुः (M)" },
+    { en: "Same, alike", sans: "सदृश (Adj)" },
+    { en: "Unfavorable", sans: "प्रतिकूल (Adj)" },
+    { en: "Favorable", sans: "अनुकूल (Adj)" },
 ];
 
 /*
+
+    { en: "in place of, instead of", sans: "स्थाने" },
+    { en: "in comparison with", sans: "अपेक्षया" },
+    { en: "Kidnapped", sans: "आहर" },
+    { en: "mandatory, compulsory", sans: "अनिवार्यम्" },
+    { en: "Tube", sans: "नलिका (F)" },
+    { en: "defeat, be victorious", sans: "विजयते (V)" },
+    { en: "I worship", sans: "भजे" },
+    { en: "Night", sans: "निशा (F)" },
+    { en: "Touches", sans: "स्पृशति (V)" },
+    { en: "Successful", sans: "सफल (Adj)" },
+    { en: "Path, course", sans: "अयनम् (N)" },
+    { en: "prosperous", sans: "समृद्ध (Adj)" },
+    { en: "Tasty", sans: "स्वादु (Adj), रुचिकरम्" },
+    { en: "sings, chirps", sans: "कूजति (V)" },
+    { en: "Roar", sans: "गर्जति (V)" },
+
     { en: "Team", sans: "" },
     { en: "Prefer", sans: "" },
     { en: "Preference", sans: "" },
-    { en: "Unripe Fruit", sans: "शलाटुः (M)" },
     { en: "Repeat", sans: "" },
-    { en: "Same", sans: "समान (Adj)" },
+    { en: "Relax", sans: "" },
+    { en: "Revision", sans: "" },
+    { en: "Instruction", sans: "" },
+
     { en: "", sans: "" },
     { en: "", sans: "" },
     { en: "", sans: "" },
-    { en: "", sans: "" },
-    { en: "", sans: "" },
-    { en: "", sans: "" },
+
+
+    kanta pata
+    duralabaha
+    chalani - sieve
+    shastram - weapon?
+    upanayasaha -
+    janabhasha -
+    jail, prison - kaidashala?
+    janabhasha
+    shastram = weapon
+    confusion
+    klesha
+    kshina
+    parampara
+    instead of
+
+
+    shapes category in vocab
+    color category in vocab
+
+
      pravasam
      strong - weak
      North, South, East, West
