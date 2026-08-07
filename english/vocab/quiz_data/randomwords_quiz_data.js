@@ -149,7 +149,7 @@ const quizData = [
     { en: "in place of, instead of", sans: "स्थाने" },
     { en: "in comparison with", sans: "अपेक्षया (ind)" },
     { en: "take, fetch, bring", sans: "आहर (v)" },
-    { en: "kidnapped, abducted", sans: "अपहरत् (v)"}
+    { en: "kidnapped, abducted", sans: "अपहरत् (v)"},
     { en: "mandatory, compulsory", sans: "अनिवार्यम् (adj)" },
     { en: "Tube", sans: "नलिका (f)" },
     { en: "to defeat, be victorious", sans: "विजयते (v)" },
