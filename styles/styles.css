@@ -1014,9 +1014,9 @@ h3 {
   margin: 10px 0;
   padding: 10px 20px;
   border: 1px solid #d8d8d8;
-  border-radius: 16px;
+  border-radius: 10px;
   background: #fafafa;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  /*box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);*/
 
   font-family: "Roboto Slab", serif;
   font-size: 1.05rem;
